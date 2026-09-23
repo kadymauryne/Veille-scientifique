@@ -1,326 +1,602 @@
 # Veille scientifique Mau Plan — semaine du 2026-09-23
 
-Fenêtre : 2026-09-16 → 2026-09-23 (déjà signalés exclus).
+Fenêtre : 2026-09-02 → 2026-09-23 (déjà signalés exclus).
 
-**État des sources :** OpenAlex S1 : 5369 reçus ; PubMed : 1007 reçus, 643 ajoutés ; AfricArXiv : 0 reçus, 0 ajoutés ; OpenAlex S2 : ÉCHEC (Échec après 5 tentatives : https://api.openalex.org/works)
+**État des sources :** OpenAlex S1 : 12000 reçus (plafond atteint) ; PubMed : 3394 reçus, 2292 ajoutés ; AfricArXiv : 0 reçus, 0 ajoutés ; OpenAlex S2 : 5728 retenus, 12/15 requêtes réussies ; Exclus : 5663 (éditeurs écartés, annexes, doublons)
 
-**Volumes :** section 1 = 6012 nouveaux travaux ; section 2 = 0.
+**Volumes :** section 1 = 10039 nouveaux travaux ; section 2 = 2755.
 
 ## Section 1 — Auteurs affiliés en Afrique
 
-### 🌿 Environnement & Eau — 15 affichés sur 403
+### 🌿 Environnement & Eau — 15 affichés sur 623
 
-- **Climate Change–Associated Modulation of Phytochemical Composition and Antimicrobial Potential in Medicinal Plants of the East African Region: A Review of Evidence**
-  East African Journal of Health and Science, 2026-09-19 | article | TZ
-  Anthony Oduor Ochieng | score 20 | [DOI](https://doi.org/10.37284/eajhs.9.3.5811) | [PDF libre](https://journals.eanso.org/index.php/eajhs/article/download/5811/6141)
-  > Medicinal plants remain important components of healthcare systems in East Africa, where indigenous knowledge has supported their use for generations. Their therapeutic value is largely associated with secondary…
-- **Flooding as a driver of emerging contaminants, pathogens, and microplastics in environmental systems: A systematic review of mechanisms, transport pathways, and exposure risks**
-  Water Security, 2026-09-17 | revue de littérature | DZ
-  Salima Aissaoui, Khaled Abass, Lucy Semerjian | score 19 | [DOI](https://doi.org/10.1016/j.wasec.2026.100221)
-  > Climate change and urbanization are increasing the frequency and impact of flood events and intensifying contaminant transport across environmental systems. Despite growing evidence, the available literature remains…
-- **Analysing Microbial Risks Associated with Heavy Metal Levels in Groundwater Sources: A Case Study of Werdama, Libya**
-  AlQalam Journal of Medical and Applied Sciences, 2026-09-20 | article | LY
-  Adel Mahmoud | score 18 | [DOI](https://doi.org/10.54361/ajmas.269941) | [PDF libre](https://journal.utripoli.edu.ly/index.php/Alqalam/article/download/1961/1467)
-  > Groundwater is the main source of drinking water for rural and peri-urban communities across the Al-Jabal Al-Akhdar region of Libya, yet its quality has rarely been documented in any systematic way. In this study we…
-- **Evaluating Ecosystem Pollution Indices of Heavy Metals in Microplastics in Surface Water, South-South, Nigeria**
-  IIARD INTERNATIONAL JOURNAL OF GEOGRAPHY AND ENVIRONMENTAL MANAGEMENT, 2026-09-21 | article | NG
-  Isaac U. Isaac | score 18 | [DOI](https://doi.org/10.56201/ijgem.vol.11.no3.2025.pg171.180)
-  > This study evaluates the ecosystem pollution indices of heavy metals in microplastics in surface water (MCPW) from the brackish water estuaries of Woji, Elelenwo, and Okujagu Creeks in Port Harcourt, Rivers State,…
-- **Household exposure pathways and perceived health risks associated with artisanal and small-scale gold mining around Lake Sonfon, Sierra Leone: a cross-sectional study**
-  BMC Public Health, 2026-09-22 | article | KE, SL
-  Bundu Conteh, Joseph K. Sang, John Gathenya et al. | score 18 | [DOI](https://doi.org/10.1186/s12889-026-29516-1)
-  > Abstract Artisanal and small-scale gold mining (ASGM) is widely associated with heavy metal contamination in rural communities, yet limited evidence links multiple household exposure behaviours to self-reported health…
-- **Integrated assessment of microplastic and organochlorine pesticide contamination in the Nworie River, Southeastern Nigeria**
-  Scientific Reports, 2026-09-18 | article | NG, RW, UG
-  Justina U. Udensi, P. Chukwudi, Emem O. Mbong et al. | score 18 | [DOI](https://doi.org/10.1038/s41598-026-72263-x) | [PDF libre](https://www.nature.com/articles/s41598-026-72263-x_reference.pdf)
-  > Abstract Microplastic and organochlorine pesticide pollution of freshwater water systems is widespread in tropical Africa. Hence, this study assessed microplastic and organochlorine pesticide (OCP) contamination in the…
-- **Assessment of Drinking Water Pollution in the Department of Dar Al-Fawakeh**
-  American Journal of Applied Chemistry, 2026-09-18 | article | TD
-  Balkis Adam, Mohagir Ahmed Mohammed, Divine Nde Bup | score 17 | [DOI](https://doi.org/10.11648/j.ajac.20261404.12) | [PDF libre](http://article.sciencepg.com/pdf/j.ajac.20261404.12)
-  > This study was conducted to evaluate the quality of drinking water in the Department of Dar Al-Fawakeh through its physical, chemical and biological characteristics, as well as to estimate the concentration of some…
-- **Children's exposure to particulate matter air pollution in indoor and outdoor school environments in the city of Bukavu, Democratic Republic of the Congo, Central Africa**
-  Social Sciences & Humanities Open, 2026-09-19 | article | BI, CD, CI
-  Kwabe Balibuno Franck, Gaoussou Sylla, Aloys Ndayisenga et al. | score 17 | [DOI](https://doi.org/10.1016/j.ssaho.2026.103693)
-  > School-age children are particularly vulnerable to the negative health impacts of air pollution, since early exposure can have lasting effects. This is especially alarming in sub-Saharan Africa, where children…
-- **Comparative Evaluation of Borehole Water Quality in Rural Nigeria**
-  INTERNATIONAL JOURNAL OF CHEMISTRY AND CHEMICAL PROCESSES, 2026-09-22 | article | NG
-  Usman Hamman | score 17 | [DOI](https://doi.org/10.56201/ijccp.vol.11.no5.2025.pg43.49)
-  > Groundwater remains the primary source of potable water in rural Nigeria, yet its safety is increasingly threatened by heavy metal contamination. This study conducted a comparative evaluation of borehole water quality…
-- **Spatio-Temporal Assessment of Heavy Metal Contamination in Borehole Water of Bali Town, Taraba State, Nigeria**
-  INTERNATIONAL JOURNAL OF CHEMISTRY AND CHEMICAL PROCESSES, 2026-09-22 | article | NG
-  Usman Hamman | score 17 | [DOI](https://doi.org/10.56201/ijccp.vol.11.no5.2025.pg35.42)
-  > Ensuring access to safe drinking water remains a public health priority, especially in rural Nigeria where boreholes are the major source of water. This study investigated the spatiotemporal distribution of heavy metals…
-- **Assessment of Heavy Metal Concentration in some Selected Surface Water in Obudu and Obanliku Local Government Areas of Cross River State**
-  INTERNATIONAL JOURNAL OF CHEMISTRY AND CHEMICAL PROCESSES, 2026-09-22 | article | NG
-  Bassey Bassey Edet | score 16 | [DOI](https://doi.org/10.56201/ijccp.vol.11.no4.2025.pg89.102)
-  > The hydrologic cycle describes the continuous movement of water above, on and below the surface of the Earth. The water on the Earth’s surface (surface water) occurs as streams, lakes, and wetlands, as well as bays and…
-- **Heavy metal levels in crop and livestock product in Ethiopia: a review**
-  Food Safety and Risk, 2026-09-17 | article | ET
-  Biadge Kefale, Fikrte Woldeyes, Gashaw Muluken Tessera et al. | score 16 | [DOI](https://doi.org/10.1186/s40550-026-00165-x) | [PDF libre](https://link.springer.com/content/pdf/10.1186/s40550-026-00165-x.pdf)
-  > Heavy metal contamination in food is a growing public health concern due to its potential for chronic toxicity. In Ethiopia, several studies have reported elevated levels of heavy metals in cereals, vegetables, fruits,…
-- **Hydrological responses to future climate and land use/land cover change in the Upper Blue Nile Basin, Ethiopia: A systematic review**
-  Hydrology research, 2026-09-16 | revue de littérature | ET
-  Kebede Bekele Atlaw, Wondimagegn Mengist, Estifanos Lemma et al. | score 16 | [DOI](https://doi.org/10.1016/j.hydrch.2026.100049) | [PDF libre](https://www.sciencedirect.com/science/article/pii/S1998956326006130/pdf)
-  > The hydrological regimes of the Upper Blue Nile Basin (UBNB) are undergoing rapid transformation under the combined influence of climate change and land use/land cover dynamics. This review aims to synthesize the…
-- **Integrated hydrochemical and microbiological assessment of groundwater quality for early contamination detection and preventive management**
-  Discover Geoscience, 2026-09-16 | article | GH
-  Kwabina Ibrahim, Raymond Webrah Kazapoe, Roland Asare et al. | score 16 | [DOI](https://doi.org/10.1007/s44288-026-00729-6) | [PDF libre](https://link.springer.com/content/pdf/10.1007/s44288-026-00729-6.pdf)
-  > Abstract Groundwater is a critical source of drinking water in many rural areas and peri-urban communities; however, both geochemical and microbiological factors increasingly influence its suitability. This study…
-- **Seasonal and Spatial Dynamics of Heavy Metals Contamination in Oguta Lake, Imo State, Nigeria**
-  INTERNATIONAL JOURNAL OF CHEMISTRY AND CHEMICAL PROCESSES, 2026-09-22 | article | NG
-  Maryann Chioma Igbomezie | score 16 | [DOI](https://doi.org/10.56201/ijccp.vol.11.no4.2025.pg147.161)
-  > This study investigated the seasonal and spatial dynamics of heavy metal contamination in Oguta Lake, Nigeria, with implications for ecological integrity and public health. Water samples were collected from three…
+- **Baseline assessment of water quality suitability for irrigation using hydrochemical and heavy metal pollution indices in the Meli gold mining area, Tigray, Ethiopia**
+  Discover Sustainability, 2026-09-15 | article | ET
+  Brhanemeskel Weleabzgi, Haile Tadelle Abadi, Werede Girmay et al. | score 24 | [DOI](https://doi.org/10.1007/s43621-026-04689-2)
+  > Irrigation water quality is a critical determinant of agricultural productivity, soil health, and long-term environmental sustainability, particularly in regions affected by mining activity. In the Meli area of Tigray,…
+- **Hydrological impacts of land use and land cover change on the width of Bua River, Nkhotakota district, Malawi**
+  Discover Water, 2026-09-02 | article | MW
+  Nellie Chisomo Reuben, Chitsanzo Damazio, Peter Nkwanda et al. | score 22 | [DOI](https://doi.org/10.1007/s43832-026-00447-7) | [PDF libre](https://link.springer.com/content/pdf/10.1007/s43832-026-00447-7.pdf)
+  > This study examined the impact of land use and land cover (LULC) changes on the width of the Bua River in Malawi, recognizing LULC change as a major environmental challenge with significant consequences for water and…
+- **Ethnobotanical and conservation assessment on medicinal plants at Zegie Peninsula and neighboring islands of Lake Tana Biosphere Reserve, Ethiopia**
+  CABI Agriculture and Bioscience, 2026-09-09 | article | ET
+  Abebe Worku Amberbir, Amare Bitew Mekonen, Destaw Damtie Yehualaw et al. | score 21 | [DOI](https://doi.org/10.1079/ab.2026.0058)
+  > Abstract Background : Ethiopia is part of the East Afromontane biodiversity hotspot and harbors rich ethnobotanical knowledge closely linked to high plant diversity. In the Zegie Peninsula and the monastic islands of…
+- **Integrated Assessment of Potentially Toxic Elements and Microbial Contamination in Soil and Groundwater Around a Municipal Solid Waste Dumpsite in Zomba, Malawi**
+  Pollutants, 2026-09-09 | article | MW
+  Eliya Nelson Kumwenda, Chikumbusko Chiziwa Kaonga, Upile Chitete-Mawenda | score 21 | [DOI](https://doi.org/10.3390/pollutants6030051)
+  > The present study assessed potentially toxic elements (PTEs) and microbial contamination in soil and groundwater around a municipal solid waste dumpsite in Zomba, Malawi. The potential ecological and health risks to…
+- **Multivariate analysis of land use/land cover (LULC) effects on water quality in the Lower Mara River catchment**
+  Water Practice & Technology, 2026-09-10 | article | TZ
+  Stephano M. Alphayo, Zacharia Katambara, Livingstone Swilla | score 21 | [DOI](https://doi.org/10.2166/wpt.2026.443) | [PDF libre](https://iwaponline.com/wpt/article-pdf/doi/10.2166/wpt.2026.443/1637961/wpt2026443.pdf)
+  > ABSTRACT The Lower Mara River catchment is increasingly subjected to anthropogenic pressure due to land-use/land-cover (LULC) changes, which significantly influence river water quality. This study assessed the effects…
+- **Flood-driven water contamination as a preventable public-health infrastructure failure: a perspective on flood-ready water and health systems**
+  Frontiers in Water, 2026-09-04 | article | NG, UG
+  Sylvester Chibueze Izah, Matthew Chidozie Ogwu, Vivian Ibienebakabobo Promise et al. | score 20 | [DOI](https://doi.org/10.3389/frwa.2026.1927775) | [PDF libre](https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2026.1927775/pdf)
+  > Flooding is commonly approached as a hydrological disaster, followed by emergency relief, disease surveillance, and environmental clean-up. This approach appears incomplete because floodwater rapidly connects…
+- **Carbon stock dynamics across land use/land cover in the urbanizing Akaki river catchment, Ethiopia**
+  Carbon Balance and Management, 2026-09-07 | article | ET
+  Hailegebreal Tamirat, Meron Tekalign, Mekuria Argaw et al. | score 19 | [DOI](https://doi.org/10.1186/s13021-026-00507-4)
+  > Terrestrial ecosystems play a pivotal role in climate regulation, yet rapid rural–urban land-use and land-cover (LULC) change is profoundly reshaping carbon dynamics across developing landscape. Conventional static…
+- **Assessment of selected heavy metals pollution (chromium, lead, and cadmium) in edible vegetables and agricultural soils influenced by tannery activities in the Amhara Region, Ethiopia**
+  Journal of Environmental Science and Health Part B, 2026-09-09 | article | ET, MA
+  Gemechu Senbeta Etu, Mulugeta Tesemma Kassa, Denekew Temesgen Belay et al. | score 18 | [DOI](https://doi.org/10.1080/03601234.2026.2731388)
+  > Industrial heavy metal pollution in agricultural soils threatens food safety and human health. This study assessed chromium (Cr), lead (Pb), and cadmium (Cd) concentrations in soils and vegetables collected from four…
+- **Flood Hazard Mapping under SSP Emission Scenarios Integrating HEC-HMS and HEC-RAS Modeling in Afiya River Catchment, Southern Ethiopia**
+  Watershed Ecology and the Environment, 2026-09-12 | article | ET
+  Bogale Gebremariam Neka, Bahiru Gobezeayehu, Tarun Kumar Lohani | score 18 | [DOI](https://doi.org/10.1016/j.wsee.2026.08.003) | [PDF libre](https://www.sciencedirect.com/science/article/pii/S2589471426000148/pdf)
+  > The occurrence, strength, and geographical spread of flooding events are greatly affected by climate change. Rising temperatures, changing precipitation patterns, and increased extreme weather events are likely to…
+- **Integrated assessment of coastal erosion and flood vulnerability in Durban, South Africa, using geospatial techniques**
+  Environmental and Sustainability Indicators, 2026-09-04 | article | ZA
+  Ekang C. Amatebelle, Zachariah H. Mshelia, Abiodun A. Ogundeji | score 18 | [DOI](https://doi.org/10.1016/j.indic.2026.101506) | [PDF libre](https://www.sciencedirect.com/science/article/pii/S2665972726003958/pdf)
+  > Coastline erosion and flooding pose serious threats to coastal settlements, particularly in rapidly urbanising regions where climate change is exacerbating these hazards. This study aims to assess the spatial…
+- **MULTI-CONTAMINANT POLLUTION BURDEN IN NIGERIAN FRESHWATER ECOSYSTEMS: A SYSTEMATIC REVIEW OF ECOTOXICOLOGICAL EVIDENCE FROM HEAVY METALS, HYDROCARBONS, PESTICIDES, AND MICROPLASTICS FOR INTEGRATED RISK ASSESSMENT**
+  World Journal of Advanced Research and Reviews, 2026-09-10 | revue de littérature | ET, NG
+  Dr Muhammad Kabir Usman, Nasir Ahmad Falaki, Mekonnen Abera Anbesa et al. | score 18 | [DOI](https://doi.org/10.30574/wjarr.2026.31.3.2250) | [PDF libre](https://wjarr.com/sites/default/files/fulltext_pdf/WJARR-2026-2250.pdf)
+  > Nigerian freshwater ecosystems are subjected to multiple exposures of heavy metals, petroleum hydrocarbons, organochlorine and organophosphate pesticides and microplastics. This co-exposure makes risk assessment of…
+- **Using urban nitrate-rich groundwater for peri-urban irrigation in Dakar, Senegal: an evaluation of water quality concerns**
+  Frontiers in Water, 2026-09-03 | article | SN
+  Mandiaye Diene, Abdoulaye Pouye, Viviana Ré et al. | score 18 | [DOI](https://doi.org/10.3389/frwa.2026.1869408) | [PDF libre](https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2026.1869408/pdf)
+  > Contamination of urban groundwater from faecal effluent in sewered and unsewered areas is a widespread constraint to its use for water-supply provision. Here, we present the first multi-annual (2018–2024) assessment of…
+- **Air Pollution and Heat Impacts on Respiratory Morbidity and Mortality Outcomes in Africa: A Systematic Review Towards a Meta-analysis**
+  Current Environmental Health Reports, 2026-09-03 | revue de littérature | ZA
+  Caradee Y Wright, Thandi Kapwata, Viwe Dikoko et al. | score 17 | [DOI](https://doi.org/10.1007/s40572-026-00561-7) | [PDF libre](https://link.springer.com/content/pdf/10.1007/s40572-026-00561-7.pdf)
+  > PURPOSE OF THE REVIEW: This review synthesised evidence on associations between air pollution and respiratory morbidity in Africa. Following PRISMA guidelines, we systematically searched PubMed, ScienceDirect and Elicit…
+- **Ecological risk assessment and spatial distribution of heavy metals in soils surrounding urban abattoir waste systems in southwestern Nigeria**
+  Discover Environment, 2026-09-07 | article | NG
+  Durga Ruth Panchalingam, Mohammed Abdulkareem Adisa | score 17 | [DOI](https://doi.org/10.1007/s44274-026-00982-z) | [PDF libre](https://link.springer.com/content/pdf/10.1007/s44274-026-00982-z.pdf)
+  > This study investigated the accumulation and ecological risk of heavy metals in soils surrounding a major open dumpsite adjacent to the New Abattoir in Akerebiata Harmony Estate, Ilorin, Southwestern Nigeria. Ten…
+- **Heavy metal bioaccumulation and human health risk in Clarias Gariepinus and Oreochromos Niloticus from Kpata, lower River Niger, Nigeria**
+  Journal of Interdisciplinary Postgraduate Research, 2026-09-12 | article | NG
+  Udechukwu Udechukwu | score 17 | [DOI](https://doi.org/10.61955/netgpc) | [PDF libre](https://boldscholar.com/images/Journal/Articles/MS2_Udechukwu_Heavy_Metal_Kpata_JIPR.pdf)
+  > Fish from waters contaminated with heavy metals have long been recognised as one of the routes through which humans acquire such metals from their environment, yet information on fish tissue metal burdens, accumulation…
 
-### 🩺 Santé au travail & santé des femmes — 15 affichés sur 130
+### 🩺 Santé au travail & santé des femmes — 15 affichés sur 263
 
-- **Knowledge, Exposure, and Safety Practices Toward Occupational Hazards Among Healthcare Workers in Accident and Emergency Departments of Tertiary Health Institutions in Rivers State, Nigeria**
-  Iconic Research and Engineering Journals, 2026-09-17 | article | NG
-  A. C. Anike, Assoc. Prof. A. C. Ugwuoke, G. Nwankwo et al. | score 18 | [DOI](https://doi.org/10.64388/irev10i3-1723157) | [PDF libre](https://www.irejournals.com/formatedpaper/1723157.pdf)
-  > Healthcare workers in Accident and Emergency (A&E) departments occupy one of the highest risk zones in the health system, routinely encountering biological, physical, chemical, ergonomic, and psycho social hazards that…
-- **Leveraging community health workers for the promotion of Breast Cancer Awareness and Timely Help-Seeking Behaviour (BreCATH-B study), among underserved rural population in Kenya: a protocol for a hybrid type II cluster randomised controlled trial**
-  Implementation Science Communications, 2026-09-18 | article | KE
-  Peter Ntoiti Kailemia, Victoria Mukami, Moses M. Ngari et al. | score 16 | [DOI](https://doi.org/10.1186/s43058-026-01105-8)
-  > Female breast cancer (FBC) is the world’s most diagnosed cancer and the leading or second leading cause of female cancer-related deaths in 95% of the countries. In Kenya, it is the most diagnosed cancer with 7, 243…
-- **Review of the Influence of Socioeconomic Status on Cardiovascular Health Among Healthcare Workers**
-  INTERNATIONAL JOURNAL OF MEDICAL EVALUATION AND PHYSICAL REPORT, 2026-09-18 | article | NG
-  Oso Tolulope Olamide | score 16 | [DOI](https://doi.org/10.56201/ijmepr.v9.no3.2025.pg57.65) | [PDF libre](https://iiardjournals.org/get/IJMEPR/VOL. 9 NO. 3 2025/Review of the Influence of Socioeconomic 57-65.pdf)
-  > Cardiovascular diseases (CVDs) continue to be the leading cause of death and disability worldwide, placing a growing strain on healthcare systems. Surprisingly, healthcare workers— who are expected to model healthy…
-- **Psychological intervention for disputing irrational beliefs associated with work stress amongst tourism educators and mathematicians with hypertension**
-  Medicine, 2026-09-18 | article | NG
-  Joy Nneka Uchenye Ejikeme, John Nwabueze Igabari, Kelechi Ruth Ede et al. | score 14 | [DOI](https://doi.org/10.1097/md.0000000000050776)
-  > BACKGROUND: Employees with hypertension face challenging job pressures that have a negative impact on their health, leading to ineffective and unsatisfactory work. Additionally, this can affect an organization's overall…
-- **Safety first, science second: Healthcare workers' conditional trust and willingness to participate in Lassa fever vaccine trials in Nigeria**
-  Vaccine, 2026-09-17 | article | NG
-  Zubairu Iliyasu, Muhammad Sani Abubakar, Bilkisu Z. Iliyasu et al. | score 14 | [DOI](https://doi.org/10.1016/j.vaccine.2026.129162)
-  > BACKGROUND: Lassa fever poses a persistent occupational risk to healthcare workers (HCWs) in Nigeria. While HCWs are pivotal to vaccine trial success, their decision-making in settings shaped by historical research…
-- **Availability, utilization, and contribution of interpersonal communication job aids for immunization among frontline health workers in Ethiopia: a qualitative study**
-  BMC Health Services Research, 2026-09-19 | article | ET, KE
-  Simegnew Handebo, Kenzudin Assfa Mossa, Rachana Sharma et al. | score 13 | [DOI](https://doi.org/10.1186/s12913-026-15619-3)
-  > Interpersonal communication can mean the difference between a children being fully immunized or not at all. Interpersonal Communication (IPC) job aids help health workers value, acquire, and consistently use the…
-- **Ergonomic Interventions and Technology in Preventing Musculoskeletal Disorders Among Sonographers (2000-2025): A Systematic Mapping Review**
-  medRxiv, 2026-09-16 | PREPRINT, non évalué | GH
-  Ama Boahene Akomah, Albert Dayor Piersson, Marizuk Waris Tizumah | score 13 | [DOI](https://doi.org/10.64898/2026.09.15.26363110) | [PDF libre](https://www.medrxiv.org/content/medrxiv/early/2026/09/16/2026.09.15.26363110.full.pdf)
-  > ABSTRACT The sonography profession faces a persistent occupational health crisis, with nearly 90% of practitioners reporting work-related musculoskeletal disorders (WRMSDs) despite two decades of ergonomic education.…
-- **Hand Hygiene Compliance of Healthcare Workers at a Public Hospital in South Africa: An Observational Study**
-  Student s Journal of Health Research Africa, 2026-09-16 | article | ZA
-  Siyanda A. Ngema, Lefentse Magale, Dumisani Mahlangu et al. | score 13 | [DOI](https://doi.org/10.51168/zr1m3g16)
-  > Introduction: Hand hygiene (HH) is crucial for preventing healthcare-associated infections (HAIs) in healthcare facilities. Aim: This observational study investigated the HH compliance of healthcare workers in the…
-- **Occupational Pesticide Exposure and Risk of Non-melanoma Skin Cancer Among U.S. Adults: A Systematic Review**
-  Cureus, 2026-09-17 | revue de littérature | ZW
-  Daad G Alrowaili, Wendy Miranda, Uchechi A Nwaneri et al. | score 13 | [DOI](https://doi.org/10.7759/cureus.116415) | [PDF libre](https://www.cureus.com/articles/520949-occupational-pesticide-exposure-and-risk-of-non-melanoma-skin-cancer-among-us-adults-a-systematic-review.pdf)
-  > Non-melanoma skin cancer (NMSC), including basal cell carcinoma (BCC) and squamous cell carcinoma (SCC), is the most common cancer diagnosed in the United States.Although ultraviolet (UV) radiation is the major risk…
-- **On-The-Job Training Practices and Staff Retention Among Health Workers in Kasese District Local Government**
-  East African Journal of Business and Economics, 2026-09-19 | article | UG
-  Moris Mujungu Mumbere, Johnson Atwine, Jimmy Mwesigye | score 13 | [DOI](https://doi.org/10.37284/eajbe.9.3.5814) | [PDF libre](https://journals.eanso.org/index.php/eajbe/article/download/5814/6144)
-  > This study examined the relationship between on-the-job training practices and staff retention among health workers in Kasese District Local Government. The study was guided by four specific objectives: to examine the…
-- **PERSONAL PROTECTIVE EQUIPMENT AVAILABILITY AND USE IN PRIMARY HEALTH CARE FACILITIES: A SYSTEMATIC REVIEW OF BARRIERS AND ENABLERS**
-  EIJRIHS, 2026-09-17 | revue de littérature | NG
-  Khadijat Umar, Dauda Gwomson | score 13 | [DOI](https://doi.org/10.66811/eijrihs.vol1.no5.77) | [PDF libre](https://eijrihs.com/index.php/Home/article/download/77/47)
-  > The primary health care (PHC) worker provides first contact health services and is exposed to infectious, biological and other occupational hazards. Personal protective equipment (PPE) is an important part of infection…
-- **Policy Gaps and Implementation Barriers in Occupational Health Management of Oil Drilling Workers with Chronic Exposure Risks**
-  INTERNATIONAL JOURNAL OF MEDICAL EVALUATION AND PHYSICAL REPORT, 2026-09-22 | article | NG
-  Eze Chinwoke Odocha | score 13 | [DOI](https://doi.org/10.56201/ijmepr.v9.no7.2025.pg29.51)
-  > Oil drilling workers face serious long-term health risks from workplace exposures, yet protective policies often fail in practice. This study examined why this gap exists by surveying 412 Nigerian oil workers about…
-- **Factors Associated with Depression among Older Adults with Diabetes and/or Hypertension Attending Rural Health Centre IVs in Southwestern Uganda: A Convergent Mixed-Methods Cross-Sectional Study**
-  East African Journal of Health and Science, 2026-09-21 | article | UG
-  Provia Kurinampa, Gershom Atukunda, Bright Laban Waswa | score 12 | [DOI](https://doi.org/10.37284/eajhs.9.3.5822)
-  > Background: Depression frequently co-occurs with diabetes and hypertension, but determinants among older adults receiving chronic-disease care in rural Ugandan primary-care settings remain poorly characterised. This…
-- **Health Risk Assessment as Correlate for Exposure to Occupational Hazards among Cryogenic Workers in Nigeria**
-  Zenodo (CERN European Organization for Nuclear Research), 2026-09-18 | article | NG
-  J. Gabriel -Pepple | score 12 | [DOI](https://doi.org/10.5281/zenodo.22823994)
-- **Health Risk Assessment as Correlate for Exposure to Occupational Hazards among Cryogenic Workers in Nigeria**
-  Zenodo (CERN European Organization for Nuclear Research), 2026-09-18 | article | NG
-  J. Gabriel -Pepple | score 12 | [DOI](https://doi.org/10.5281/zenodo.22823995)
+- **Exploring the Impact of Occupational Hazards on the Mental Health of Farmworkers: A Qualitative Study in Maruleng, Limpopo Province**
+  International Journal of Environmental Research and Public Health, 2026-09-10 | article | ZA
+  Letladi Moagi, Mokoko Percy Kekana, Bonelwa Sidumo | score 18 | [DOI](https://doi.org/10.3390/ijerph23091194)
+  > Mental health encompasses emotional, psychological, and social well-being, influencing how individuals’ function and cope with life events. In the agricultural industry, the use of machinery and chemicals to increase…
+- **Prevalence, serological profiles, and determinants of hepatitis B infection among healthcare workers and beauty service professionals in Port Harcourt, Nigeria: a comparative study**
+  BMC Infectious Diseases, 2026-09-10 | article | NG
+  Moore Ikechi Mike-Ogburia, Favour Chigemezu Alozie, Ibinabo Laura Oboro et al. | score 18 | [DOI](https://doi.org/10.1186/s12879-026-14292-5)
+  > Healthcare workers and beauty service professionals are occupationally exposed to hepatitis B virus (HBV), yet comparative evidence on infection prevalence and related determinants is limited in Port Harcourt, Nigeria.…
+- **Cardiovascular disease risk and lifestyle factors among healthcare workers and the general population in Southern Morocco: a cross-sectional study**
+  BMC Public Health, 2026-09-07 | article | MA
+  Najlae Adadi, Mohamed Yassine El Brouzi, Mahassine Amensour et al. | score 17 | [DOI](https://doi.org/10.1186/s12889-025-26136-z)
+  > Healthcare workers (HCWs) play a dual role in public health as both caregivers and individuals exposed to occupational stress and health risks, including cardiovascular disease (CVD). Understanding these risks compared…
+- **Determinants of hepatitis B immunity among healthcare workers and beauty service professionals in Port Harcourt, Nigeria: a comparative cross-sectional study**
+  BMC Public Health, 2026-09-02 | article | NG
+  Moore Ikechi Mike-Ogburia, Favour Chigemezu Alozie, Ibinabo Laura Oboro et al. | score 17 | [DOI](https://doi.org/10.1186/s12889-026-29182-3)
+  > Healthcare workers and beauty service professionals are occupationally exposed to hepatitis B virus (HBV), but comparative evidence on serologically confirmed hepatitis B immunity and its determinants remains limited in…
+- **Diagnostic accuracy of attended versus unattended automated blood pressure measurements compared to ambulatory blood pressure monitoring conducted by community health workers in rural sub-Saharan Africa**
+  BMC Medicine, 2026-09-03 | article | GM, KE, TZ
+  Ruth Khadembu Lucinde, Modou Jobe, Alexander D. Perkins et al. | score 17 | [DOI](https://doi.org/10.1186/s12916-026-05198-9)
+  > Abstract Background Community Health Workers (CHWs) are increasingly being involved in screening for hypertension in rural sub-Saharan Africa. However the diagnostic accuracy of CHW-led attended (CHW present during…
+- **Assessment of vaccination competency among health workers in health facilities in East Wollega, Oromia, Western Ethiopia: An observational study**
+  PLoS ONE, 2026-09-15 | article | ET
+  Adugna Olani, Gedefa Bayisa, Merga Chala Bokora et al. | score 16 | [DOI](https://doi.org/10.1371/journal.pone.0358136) | [PDF libre](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0358136&type=printable)
+  > BACKGROUND: Vaccination competency is a critical determinant of immunization quality and safety. However, limited evidence exists on the practical skills of frontline providers in Ethiopia. METHODS: A facility-based…
+- **Determinants of adverse drug reaction reporting for antimalarial medicines: a mixed-methods study among healthcare workers in ogun State Southwest Nigeria**
+  BMC Health Services Research, 2026-09-13 | article | NG
+  Frederick Ifijeh, Harrison Ejiyere, Tobifunmi Babarinde et al. | score 16 | [DOI](https://doi.org/10.1186/s12913-026-15598-5)
+  > Spontaneous adverse drug reaction (ADR) reporting is central to pharmacovigilance, yet underreporting remains common in malaria-endemic low- and middle-income countries (LMICs). This study examined determinants of ADR…
+- **Feasibility of neoSpot vital signs assessment by community health workers during antenatal care community outreach in Lusaka, Zambia: a qualitative study**
+  BMC Pregnancy and Childbirth, 2026-09-09 | article | ZM
+  Taniya Tembo, Albert Manasyan, Nobutu Muttau et al. | score 16 | [DOI](https://doi.org/10.1186/s12884-026-09900-w)
+  > Abstract Introduction The integration of digital tools in health initiatives marks a pivotal shift in traditional healthcare delivery methods. Technology-supported antenatal care (ANC) interventions have helped…
+- **Health facility-related barriers associated with cervical cancer screenings in the health districts of Dakar and Kédougou (2023, Senegal)**
+  Journal of Public Health in Africa, 2026-09-08 | article | SN
+  Fatoumata Binetou Diongue, Ibrahima Ndiaye, Ndèye Marème Sougou et al. | score 16 | [DOI](https://doi.org/10.4102/jphia.v17i1.1879) | [PDF libre](https://publichealthinafrica.org/index.php/jphia/article/download/1879/3253)
+  > Background: Because of low utilisation of cervical cancer screening (CCS) services, Senegal ranks 17th in the world for cervical cancer incidence. Aim: The aim was to investigate health facility factors associated with…
+- **Knowledge, practices and challenges of livestock farmers and animal health workers for zoonotic urogenital schistosomiasis control in Malawi**
+  One Health, 2026-09-04 | article | MW
+  Elisa Chafika Chuzu, Joseph Nkhoma, Sekeleghe A. Kayuni et al. | score 16 | [DOI](https://doi.org/10.1016/j.onehlt.2026.101562) | [PDF libre](https://www.sciencedirect.com/science/article/pii/S2352771426002466/pdf)
+  > Background Schistosomiasis is a major neglected tropical disease (NTD) in Malawi, increasingly recognized as zoonotic due to hybridization between human and animal schistosome species. While mass drug administration…
+- **Preparedness for diphtheria epidemic among healthcare workers in Kano State, Nigeria**
+  Open Research Europe, 2026-09-15 | article | NG
+  Ayodele Arinola Feyisara, Noah David, Etim Utibe Efre et al. | score 16 | [DOI](https://doi.org/10.12688/openreseurope.22188.3)
+  > Background Diphtheria remains a significant public health threat in Nigeria, highlighting the need for an adequately prepared healthcare workforce and health system. This study assessed healthcare workers’ knowledge of…
+- **Prevalence and factors associated with controlled drug misuse among health workers in Ibanda District, Uganda: a cross-sectional study.**
+  Student s Journal of Health Research Africa, 2026-09-08 | article | UG
+  Christine Tumwijukye, Shem Ankwatiriire, Doreen Agaba et al. | score 16 | [DOI](https://doi.org/10.51168/svafzw50) | [PDF libre](https://sjhrafrica.org/index.php/public-html/article/download/2974/2745)
+  > Background: Objective: To determine the prevalence of, and factors associated with, controlled drug misuse among health workers at two health facilities within Ibanda District. Methods: A hospital-based cross-sectional…
+- **The role of ultrasound in the characterization of uterine fibroids compared with MRI using the FIGO classification system**
+  The Egyptian Journal of Radiology and Nuclear Medicine, 2026-09-08 | article | EG
+  Momtaz Thabet Allam Mohammad, Eman Abo Elhamd, Gehan S. Seifeldein et al. | score 16 | [DOI](https://doi.org/10.1186/s43055-026-01838-5) | [PDF libre](https://link.springer.com/content/pdf/10.1186/s43055-026-01838-5.pdf)
+  > Abstract Background International Federation of Gynecology and Obstetrics (FIGO) system standardizes how fibroid location is described for treatment planning. However, MRI provides highest-resolution, accurate…
+- **Workplace Stress and Psychological Distress among ICU and Emergency Department Healthcare Workers in North-Central Nigeria: A Cross-Sectional Study**
+  IPS Journal of Public Health, 2026-09-08 | article | NG
+  Sadiya Bana Mohammed, Akib Abba Muhammad, Fatima Muhammad Sonfada et al. | score 16 | [DOI](https://doi.org/10.54117/tnngxa66) | [PDF libre](https://journals.ipsintelligentsia.com/public-health/index.php/ijph/article/download/218/197)
+  > Background: Healthcare workers (HCWs) in intensive care units (ICUs) and emergency departments (EDs) face intense occupational stressors that threaten their psychological well-being and the quality of patient care.…
+- **A Qualitative Assessment of Health Workers’ Knowledge, Perceptions, and Practices on Sudden Unexpected Infant Death in Central Uganda**
+  medRxiv, 2026-09-10 | PREPRINT, non évalué | UG
+  Mary Nyantaro, James Robert Carpenter, Andrew Abaasa et al. | score 15 | [DOI](https://doi.org/10.64898/2026.09.08.26362587) | [PDF libre](https://www.medrxiv.org/content/medrxiv/early/2026/09/10/2026.09.08.26362587.full.pdf)
+  > Abstract Introduction Health workers (HWs) have a central role in reducing the risk of Sudden Unexpected Infant Death (SUID) through caregiver education and safe-sleep counselling. Yet, awareness and application of…
 
-### 🌾 Alimentation & Sécurité — 15 affichés sur 241
+### 🌾 Alimentation & Sécurité — 15 affichés sur 386
 
-- **Germination improves iron and zinc bioaccessibility in micronutrient powder-fortified maize, millet, and sorghum porridges**
-  Discover Public Health, 2026-09-22 | article | KE
-  Susan Moraa Momanyi-Nyasimi, Hudson Nyambaka, Judith Kimiywe | score 22 | [DOI](https://doi.org/10.1186/s12982-026-02947-2)
-  > Iron and zinc deficiencies among young children in low- and middle-income countries are exacerbated by poor mineral bioaccessibility from cereal-based complementary foods rich in antinutritional factors. Because…
-- **Nutritional And Sensory Evaluation of Instant Extruded Snack Developed from Blends of Malted (Yellow Maize and White Sorghum), Soybeans, Sweet Potato and Brisket Bones**
-  RESEARCH JOURNAL OF FOOD SCIENCE AND QUALITY CONTROL, 2026-09-16 | article | NG
-   Owolabi Samuel Olusina | score 19 | [DOI](https://doi.org/10.56201/rjfsqc.vol.11.no2.2025.pg63.79) | [PDF libre](https://iiardjournals.org/get/RJFSQC/VOL. 11 NO. 2 2025/Nutritional And Sensory 63-79.pdf)
-  > This study evaluated the nutritional and sensory properties of instant extruded snacks from a combination of malted yellow maize and white sorghum, soybean, sweet potato, and brisket bones. The maize and sorghum were…
-- **Bacteriological and Nutritional Composition of Akamu Fermented from a Combination of Zea mays, Sorghum bicolor and Pennisetum glaucum Cereals**
-  RESEARCH JOURNAL OF FOOD SCIENCE AND QUALITY CONTROL, 2026-09-17 | article | NG
-  Awengi Alabere | score 17 | [DOI](https://doi.org/10.56201/rjfsqc.vol.11.no5.2025.pg114.127) | [PDF libre](https://iiardjournals.org/get/RJFSQC/VOL. 11 NO. 5 2025/Bacteriological and Nutritional Composition 114-127.pdf)
-  > The study explored the bacteriological and nutritional composition of akamu fermented from a combination of Zea mays, Sorghum bicolor and Pennisetum glaucum cereals. Akamu was fermented in four (4) setups (white Zea…
-- **Agroecological drivers of aflatoxin contamination in maize-based systems: a review**
-  Frontiers in Plant Science, 2026-09-18 | article | KE
-  Winjoy Nyawira Kinyua, Shelmith Wanja Munyiri, John Maina Wagacha et al. | score 15 | [DOI](https://doi.org/10.3389/fpls.2026.1802402)
-  > Aflatoxin contamination of maize remains a global food safety and public health challenge, particularly because it is a dietary staple food and feed ingredient produced across diverse agroecological zones. Although…
-- **Maternal Educational Attainment, Infant and Young Child Feeding Knowledge, Household Food Security, Dietary Diversity, and Nutritional Status among Mothers of under-Five Children in Ebonyi State, Nigeria**
-  Research Square, 2026-09-20 | PREPRINT, non évalué | NG
-  Akinade E. Ogunniyi, Dare D. Ademiluyi, Oreoluwa A. Ogunniyi et al. | score 15 | [DOI](https://doi.org/10.21203/rs.3.rs-10676452/v1) | [PDF libre](https://www.researchsquare.com/article/rs-10676452/latest.pdf)
-- **NUTRIENT AND PROXIMATE COMPOSITION OF PLANTAIN–ALMOND–OAT COMPOSITE FOODS FOR ELDERLY NUTRITION IN UMUDIKE, NIGERIA**
-  Nigeria Journal of Home Economics (ISSN 2782-8131), 2026-09-21 | article | NG
-  MGBENWELU Angelina Nnedinma, AZUBUIKE Ozioma Cecila, AZUBUIKE Ozioma Cecila | score 15 | [DOI](https://doi.org/10.61868/njhe.v14i13.431)
-  > The increasing need for nutrient-dense functional foods for the elderly has stimulated interest in the utilization of locally available food resources. This study evaluated the nutrient and proximate composition of…
-- **Nurse-Led Nutritional Screening and Early Identification of Malnutrition Among Hospitalized Older Adults: A Scoping Review**
-  Nutrients, 2026-09-20 | article | EG
-  Ayman Mohamed El‐Ashry, Abdelaziz Said Hendy, Saleh M. Alhirsan et al. | score 15 | [DOI](https://doi.org/10.3390/nu18183079)
-  > Background/Objectives: Malnutrition is common in hospitalized older adults and is linked to functional decline, longer stay, readmission, and mortality. Nurses usually screen at admission, but evidence on nurse-led…
-- **Assessment of Post-Harvest Losses and the Effect of Untimely Harvest of Maize Crops (A Case Study of Mirnga Community)**
-  INTERNATIONAL JOURNAL OF AGRICULTURE AND EARTH SCIENCE, 2026-09-16 | article | NG
-  Esther Yaula Washara | score 14 | [DOI](https://doi.org/10.56201/ijaes.vol.11.no9.2025.pg103.115) | [PDF libre](https://iiardjournals.org/get/IJAES/VOL. 11 NO. 9 2025/ASESSMENT OF POST-HARVEST 103-115.pdf)
-  > Currently, one of the main universal challenges is how to warrant food security for a humankind growing population whereas ensuring and abiding sustainable development. As stated by the FAO, food production will need to…
-- **Assessment of Rural Household Propensity to Consumer Value- added Yam and Cassava Flour in Rivers State, Nigeria**
-  INTERNATIONAL JOURNAL OF AGRICULTURE AND EARTH SCIENCE, 2026-09-16 | article | NG
-  Worlu R.I | score 14 | [DOI](https://doi.org/10.56201/ijaes.vol.11.no8.2025.pg173.179) | [PDF libre](https://iiardjournals.org/get/IJAES/VOL. 11 NO. 8 2025/Assessment of Rural Household 173-179.pdf)
-  > Assessment of rural households’ propensity to consumer value-added yam and cassava flour in Rivers State, Nigeria. The sample size comprised 337 households, selected through multistage sampling procedure. Structured…
-- **Early Body Mass Index z ‐Score Change and Resolution of Severe Malnutrition in Children With Sickle Cell Anemia in a Low‐Income Setting: A Prospective Single‐Arm Extension Study**
-  Pediatric Blood & Cancer, 2026-09-17 | article | NG
-  Safiya Gambo, Shehu Umar Abdullahi, Hassan Adam Murtala et al. | score 14 | [DOI](https://doi.org/10.1002/1545-5017.70690) | [PDF libre](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/1545-5017.70690)
-  > BACKGROUND: Children with sickle cell anemia (SCA) in low-income settings are at risk of severe malnutrition, but optimal nutritional management has not been established. We evaluated an intensified ready-to-use…
-- **Engineering crop genomes: Implications for increasing food security and addressing the relevant sustainable development goals in Sub-Saharan Africa**
-  Global Food Security, 2026-09-19 | article | MA, NG
-  Peter Nkachukwu Chukwurah, Aliya Fathima Anwar, Tadelech Bizuneh Demisse et al. | score 14 | [DOI](https://doi.org/10.1016/j.gfs.2026.100942)
-  > Sub-Saharan Africa (SSA) faces persistent challenges of food insecurity, poverty, malnutrition, and heightened vulnerability to climate change. Although agriculture employs over 60% of the region's labor force,…
-- **Evaluating the Socio-Economic and Nutritional Impacts of HouseholdFruitTreeAdoption inWesternProvince ofRwanda**
-  International Journal of Life Science Research Archive, 2026-09-18 | article | RW
-  Tuyizere Donatha, Pauline Niyomugabo, Mupenzi Christophe | score 14 | [DOI](https://doi.org/10.53771/ijlsra.2026.11.1.0064) | [PDF libre](https://sciresjournals.com/ijlsra/sites/default/files/IJLSRA-2026-0064.pdf)
-  > Thisstudyexamineshowhouseholdfruittreeadoptioncontributestoimprovingrurallivelihoods and nutrition in a region where agriculture remains the main source of income. Despite national efforts promoting fruit tree planting…
-- **Food assistance for assets: programme reach and household food security in Mudzi District, Zimbabwe**
-  International Journal of Development and Sustainability, 2026-09-20 | article | ZA
-  Tapiwa Muzerengi, Happy Mathew Tirivangasi, Sejabaledi Agnes Rankoana | score 14 | [DOI](https://doi.org/10.63212/ijds22100101) | [PDF libre](https://doi.org/10.63212/ijds22100101)
-  > Recurrent drought and constrained productive assets make rural households in Mudzi District vulnerable to food insecurity. This study assessed the reach and accessibility of the Food Assistance for Assets (FFA)…
-- **Nutritional Therapy as A Cancer Management Adjunct: A Systematic Review**
-  International Journal of Medical Science and Dental Health, 2026-09-18 | article | NG
-  Akpa I.C, Uro-Chukwu H.C | score 14 | [DOI](https://doi.org/10.55640/ijmsdh-12-09-10)
-  > Background: Cancer-related malnutrition is a common issue that can seriously affect treatment outcomes. While clinical guidelines suggest that regular nutritional assessments and interventions should be part of cancer…
-- **Nutritional knowledge and dietary pattern among Type 2 diabetic patients attending University of Abuja Teaching Hospital, Gwagwalada, FCT, Nigeria**
-  BMC Public Health, 2026-09-19 | article | NG
-  Olayemi O. Olujuyigbe, Tubosun A. Olowolafe, Taiwo M. Jaiyeola et al. | score 14 | [DOI](https://doi.org/10.1186/s12889-026-29551-y)
-  > Type 2 diabetes mellitus (T2DM) is a major non-communicable disease and a leading cause of cardiovascular morbidity and mortality worldwide. Effective dietary management is essential for achieving optimal glycaemic…
+- **Food Safety Management and Mycotoxins Nexus: A Systematic Review of Mycotoxins Toxicity, Detoxification, Nutritional Impacts, and Economic Importance**
+  Food Safety and Health, 2026-09-10 | revue de littérature | UG
+  Chinaza Godswill Awuchi | score 21 | [DOI](https://doi.org/10.1002/fsh3.70119) | [PDF libre](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/fsh3.70119)
+  > ABSTRACT This systematic review synthesizes evidence published from 2019 to 2026 on mycotoxin occurrence in food and feed, toxicological effects, nutritional consequences, economic implications, detection, and…
+- **Development and nutritional evaluation of an extruded grain amaranth-instant porridge as a supplementary food for children under five with moderate acute malnutrition**
+  Frontiers in Nutrition, 2026-09-14 | article | TZ
+  Amos Steven Mwikwabe, Haikael David Martin, Benson Kusirie Mushi et al. | score 20 | [DOI](https://doi.org/10.3389/fnut.2026.1895788) | [PDF libre](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1895788/pdf)
+  > Moderate acute malnutrition (MAM) among children under five remains a challenge in Tanzania, where the fortified blended foods used to manage it are almost entirely imported, expensive and inaccessible. This study…
+- **Fermented Agri-Food By-Products from Tubers and Legumes as Next-Generation Functional Ingredients: From Waste Valorisation to Precision Nutrition**
+  Fermentation, 2026-09-05 | article | ZA
+  Gbeminiyi Olamiti, Shonisani Eugenia Ramashia | score 20 | [DOI](https://doi.org/10.3390/fermentation12090426)
+  > Processing tubers such as potato, sweet potato, cassava, and yam, as well as legumes such as soybean, pea, chickpea, bean, and lentil, generates substantial quantities of peels, pulps, husks, and press cakes that retain…
+- **Food Consumption Surveys and Nutrition Policy in Africa: A Narrative Review with Policy Lessons for Zimbabwe**
+  African Journal of Food Agriculture Nutrition and Development, 2026-09-08 | revue de littérature | ZW
+  J Nzuma, L Maposa, T Zvoma et al. | score 19 | [DOI](https://doi.org/10.18697/ajfand.154.27050) | [PDF libre](https://doi.org/10.18697/ajfand.154.27050)
+  > Malnutrition and micronutrient deficiencies remain major public health challenges, with an estimated 2.3 billion people unable to access adequate diets globally and vitamin A deficiency affecting approximately 29% of…
+- **Fortifying Wheat-Sorghum Blends with Dagaa (Rastrineobola argentea) is an Effective, Low-Cost Food-to-Food Fortification Strategy to Address Protein-Energy Malnutrition in Children: A Review**
+  European Journal of Agriculture and Food Sciences, 2026-09-05 | article | KE
+  Esther Kerubo Ateka, Charlotte  Atsango Serrem, Gertrude  Mercy Were et al. | score 19 | [DOI](https://doi.org/10.24018/ejfood.2026.8.5.70097)
+  > In sub-Saharan Africa, children under the age of five experience a high prevalence of Protein Energy Malnutrition as a result of overdependence on cereal-based diets with limited and low-quality protein and poor…
+- **Local Seed Resources for Complementary Foods in Burkina Faso: Nutritional Potential, Safety Constraints and Valorisation Pathways**
+  Journal of biology and nature, 2026-09-14 | article | BF
+  Marcel Ramdé, Bazoma Bayili, Tangbadioa Hervé Coulidiati | score 19 | [DOI](https://doi.org/10.56557/joban/2026/v18i211104)
+  > Complementary feeding between 6 and 23 months is a nutritionally demanding transition in which cereal porridges remain prominent in Burkina Faso. Local seed resources - notably pearl millet, sorghum, maize, cowpea,…
+- **Scoping Review on Traditional Fermented Cereals as Catalysts of Precision Nutrition: Mapping Evidence on Probiotic Activity, Gut Microbiota Modulation, and Human Health in Sub-Saharan Africa**
+  Biology, 2026-09-09 | article | ZA
+  Gbeminiyi Olamiti | score 19 | [DOI](https://doi.org/10.3390/biology15181582)
+  > Traditional fermented cereals are affordable, embedded foods that may provide viable microorganisms, fermentable substrates, and bioactive metabolites that can influence the gut microbiota and human physiology. However,…
+- **A Systematic Review and Meta‐Analysis of Malnutrition and Metabolic Failure in High‐Potency Incretin Therapy**
+  Obesity Science & Practice, 2026-09-06 | revue de littérature | GH
+  EUGENE AMPOFO, Charles Apprey, Mary Amoako et al. | score 18 | [DOI](https://doi.org/10.1002/osp4.70188)
+  > Objective: High-potency incretin therapy achieved substantial weight loss, but the extreme energy deficits it induced may obscure the underlying nutritional deterioration. This meta-analysis synthesized data from 19…
+- **Effect of a Facility-Based Nutrition Education Intervention on Nutritional Status of Children Aged 6–23 Months: A Longitudinal Quasi-Experimental Study in Nyeri County, Kenya**
+  African Journal of Food Agriculture Nutrition and Development, 2026-09-08 | article | KE
+  LA Omondi, JK Mutai, SM Kilonzi et al. | score 18 | [DOI](https://doi.org/10.18697/ajfand.154.27775) | [PDF libre](https://doi.org/10.18697/ajfand.154.27775)
+  > Childhood malnutrition remains a major public health challenge in low- and middle-income countries, contributing substantially to morbidity and mortality among children under five. Although nutrition education is widely…
+- **Global Occurrence, Co-Contamination Patterns, and Toxic Effects of Mycotoxins in Fish Feed: A Multi-Species Perspective Review**
+  Toxins, 2026-09-06 | article | ZA
+  Queenta Ngum Nji, Patrick Berka Njobeh | score 18 | [DOI](https://doi.org/10.3390/toxins18090383)
+  > Aquaculture has become the fastest-growing food-production sector worldwide, with increasing reliance on plant-based feed ingredients such as maize, soybean, wheat, rice, and oilseed meals. Although these ingredients…
+- **Ultra-processed food consumption and diet quality among adolescents in urban Ethiopia: baseline findings from a school-based study**
+  Scientific Reports, 2026-09-07 | article | ET
+  Kefyalew Taye Belete, Simon Nitter Dankel, Tafese Bosha et al. | score 18 | [DOI](https://doi.org/10.1038/s41598-026-68004-9) | [PDF libre](https://www.nature.com/articles/s41598-026-68004-9_reference.pdf)
+  > Abstract Adolescents are increasingly exposed to ultra-processed foods (UPFs) as food systems change in low- and middle-income countries, yet evidence from sub-Saharan Africa remains limited. This study assessed UPF…
+- **CARCASS CHARACTERISTICS OF LAYERS FED DIETS CONTAINING FERMENTED CASSAVA PEEL AND STUMP BLENDS AS A REPLACEMENT FOR MAIZE**
+  FUDMA Journal of Animal Production and Environmental Science, 2026-09-15 | article | NG
+  O.A. Kehinde-Olayanju, O.B. Ugoeze, S.O. Aro | score 17 | [DOI](https://doi.org/10.33003/japes.2026.v2i3.143-147) | [PDF libre](https://japes.fudutsinma.edu.ng/index.php/journal/article/download/208/245)
+  > In Nigeria, soaring maize prices affect the profitability of the poultry industry while cassava processing wastes are generated in large quantities that could serve as potential replacement for maize. Solid-state…
+- **Dietary diversity practice among HIV-positive adults in Ethiopia and its associated factors: a systematic review and meta-analysis**
+  Scientific Reports, 2026-09-11 | revue de littérature | ET
+  Habitamu Mekonen, Getasew Yirdaw, Temesgen Getaneh et al. | score 17 | [DOI](https://doi.org/10.1038/s41598-026-70298-8) | [PDF libre](https://www.nature.com/articles/s41598-026-70298-8_reference.pdf)
+  > Adequate nutrition is an essential component of care and support for people living with HIV. Dietary diversity is a key indicator of diet quality and nutritional adequacy; however, evidence regarding dietary diversity…
+- **Effects of Climate-Related Disasters on Child Nutrition and Feeding Practices in Low- and Middle-Income Countries: A Narrative Review**
+  Journal of Food Innovation, Nutrition, and Environmental Sciences, 2026-09-09 | revue de littérature | ZW
+  Nomagugu Ndlovu, Makhosi Mahlangu, Nomagugu Minenhle Sibanda et al. | score 17 | [DOI](https://doi.org/10.70851/jfines.2026.3(3).414.424) | [PDF libre](https://jfines.org/index.php/jfines/article/download/170/110)
+  > Climate-related disasters are becoming increasingly frequent and severe, posing major threats to child health and nutrition, particularly in low- and middle-income countries (LMICs). These events disrupt food systems,…
+- **Exploring the Effects of Climate Variability on Diarrheal Diseases, Malaria, and Malnutrition in Children Under Five Years in Revuè Sub-Basin, Manica Province, Mozambique**
+  Tropical Medicine and Infectious Disease, 2026-09-12 | article | MZ
+  Tatiana J. Marrufo, Genito A. Maúre, Américo F. José et al. | score 17 | [DOI](https://doi.org/10.3390/tropicalmed11090258)
+  > Transmission of water, vector, and foodborne diseases tends to increase with climate variability, disproportionately affecting vulnerable communities. Globally, this dynamic contributes to adverse health outcomes in…
 
-### 🧠 Sciences sociales & Psychologie — 15 affichés sur 708
+### 🧠 Sciences sociales & Psychologie — 15 affichés sur 455
 
-- **MEDIA AND MULTICULTURALISM – GENDER NORMS AND MENTAL HEALTH OF BOYS AND MEN IN KENYA**
-  Magna Scientia Advanced Research and Reviews, 2026-09-16 | article | KE
-  Victoria Githenya | score 18 | [DOI](https://doi.org/10.30574/msarr.2026.18.1.0187) | [PDF libre](https://msarr.magnascientiapub.com/sites/default/files/fulltext_pdf/MSARR-2026-0187.pdf)
-  > There is an increase in mental health crisis, especially among men and boys. In the African culture, men are expected to be strong and not to portray emotions. The stigma surrounding mental illness that men face usually…
-- **BARRIERS TO EDUCATION: UNDERSTANDING THE ROOT CAUSES OF OUT-OF-SCHOOL CHILDREN IN ZARIA LOCAL GOVERNMENT, KADUNA STATE, NIGERIA**
-  Journal of Educational Research and Development, 2026-09-17 | article | NG
-  Hajara Yusuf BAYERO, Auwalu Inusa | score 17 | [DOI](https://doi.org/10.67203/jerd.2026.1mlnai5q) | [PDF libre](https://abueducationjournals.com/jerd/article/barriers-to-education-understanding-the-root-causes-of-out-of-school-children-in-zaria-local-government-kaduna-state-nigeria.pdf)
-  > Education is a fundamental human right and a key driver of economic and social development. However,Nigeria continues to struggle with a high number of out-of-school children, particularly in rural areas such asZaria…
-- **Decentralisation of school leadership and principal autonomy in the South African education system**
-  Insights into Regional Development, 2026-09-20 | article | ZA
-  Ntsika Dyantyi | score 17 | [DOI](https://doi.org/10.70132/q5375822949) | [PDF libre](https://jssidoi.org/ird/article/download/280)
-  > In the context of increasing decentralisation of educational management, principals are expected to navigate complex governance structures that often limit their decision-making power; however, the extent of their…
-- **Examining perceived influence of gender-sensitive leadership practices on educational achievement of senior high school girls from low income households in Bolgatanga municipality**
-  Social Sciences & Humanities Open, 2026-09-19 | article | GH
-  Iddrisu Bariham, Jennifer Nommonyor Tembile | score 17 | [DOI](https://doi.org/10.1016/j.ssaho.2026.103582) | [PDF libre](https://www.sciencedirect.com/science/article/pii/S2590291126011496/pdf)
-  > Although the implementation of free senior high school (SHS) policy which has expanded access to secondary education in Ghana, girls from low-income households in Bolgatanga Municipality continue to battle with…
-- **Mobile-based digital technology adoption, gender, livelihood diversification, and poverty reduction in the Global South: a scoping review**
-  SN Social Sciences, 2026-09-22 | article | ET, ZA
-  Degineh Lagiso Bule, Herbert Ntuli, Edilegnaw Wale et al. | score 17 | [DOI](https://doi.org/10.1007/s43545-026-01749-2)
-  > Abstract The adoption of mobile phones in this century is essential for enhancing inclusion in access to livelihood assets and facilitating information flow, which are vital for improving income and reducing poverty in…
-- **IMPACT OF YOUTH RESTIVENESS ON ADOLESCENTS’ BEHAVIOUR IN PUBLIC SENIOR SECONDARY SCHOOL STUDENTS IN NORTH EAST, NIGERIA**
-  VUNOKLANG MULTIDISCIPLINARY JOURNAL OF SCIENCE AND TECHNOLOGY EDUCATION, 2026-09-17 | article | NG
-  D. O. FAREO, S. T. KOJIKILI, A. F. ZIRRA | score 16 | [DOI](https://doi.org/10.64290/vmjste.v14.i4.137) | [PDF libre](https://vmjste.com/index.php/home/article/download/137/125)
-  > This study examined the impact of youth restiveness on adolescents’ behaviour in public senior secondary schools in North East, Nigeria. The study was guided by two research questions. A descriptive survey design was…
-- **Perceived behavioural control and entrepreneurial intention among unemployed youth in the Eastern Cape: the mediating role of subjective norms**
-  Insights into Regional Development, 2026-09-20 | article | ZA
-  Obrain Tinashe Murire, Sandra Makwembere, Xabiso Ngabase et al. | score 16 | [DOI](https://doi.org/10.70132/q6465396428) | [PDF libre](https://jssidoi.org/ird/article/download/264)
-  > This study examines the mediating role of subjective norms in the relationship between perceived behavioural control and entrepreneurial intention among unemployed youth in the Eastern Cape, South Africa, an area marked…
-- **When promises matter more than fairness: The dominant role of the psychological contract in driving organisational citizenship behaviour in a selected South African higher education institution**
-  SA Journal of Industrial Psychology, 2026-09-17 | article | ZA
-  Linda Ratau, Sam T. Setati, Harriet Rivalani Maluka | score 16 | [DOI](https://doi.org/10.4102/sajip.v52i0.2405)
-  > Orientation: South African universities increasingly rely on the discretionary efforts of academic staff to maintain high teaching and learning standards, research and innovation and community engagement. Perceived…
-- **Climate–Migration–Mental health nexus in Africa: Insights from digital narratives and policy analysis**
-  Insights into Regional Development, 2026-09-20 | article | ZA
-  Noah Ariel Mutongoreni, Aaram Gwiza | score 15 | [DOI](https://doi.org/10.70132/x9835764898) | [PDF libre](https://jssidoi.org/ird/article/download/281)
-  > This paper explores the interlinkages among climate change, migration, and mental health in Africa through the lens of environmental justice.Whilst there has been increased recognition of the critical role of all three…
-- **Digital Help-seeking and Online Support Ecosystems for Youth Psychosocial Wellbeing in Kenya: Pathways, Trust, and Ethics**
-  Science Discovery Psychology, 2026-09-20 | article | KE
-  Rosemary Odhiambo | score 15 | [DOI](https://doi.org/10.11648/j.sdps.20260103.13) | [PDF libre](http://article.sciencepg.com/pdf/j.sdps.20260103.13)
-  > Kenyan youth increasingly seek psychosocial support through digital environments, yet little Kenya-specific evidence explains how online help-seeking unfolds as an ecosystem rather than as use of a single platform or…
-- **Evaluating the effectiveness of a mental-health literacy intervention on stigma perceptions and help-seeking behaviour in South African student-athletes**
-  Cogent Psychology, 2026-09-17 | article | ZA
-  Julius Jooste, Ankebé Kruger | score 15 | [DOI](https://doi.org/10.1080/23311908.2026.2733813) | [PDF libre](https://www.tandfonline.com/doi/pdf/10.1080/23311908.2026.2733813?needAccess=true)
-  > University athletes face disproportionate psychological pressure, and help-seeking is frequently stigmatised within high-performance sporting environments. Therefore, this study evaluated the effectiveness of a…
-- **Institutional dependability and adolescent mental health in South African schools after COVID-19**
-  Discover Mental Health, 2026-09-22 | article | ZA
-  Renee Zenadia Ramdin, Nancy Phyllis Makhosazane Mabaso | score 15 | [DOI](https://doi.org/10.1007/s44192-026-00596-0)
-  > This study explores adolescent distrust in institutions and school disengagement in post-COVID-19 Gauteng, South Africa. Drawing on Bronfenbrenner’s Bio-ecological Systems Theory and principles of Trauma-Informed Care,…
-- **ACCOUNTING EDUCATION SUSTAINABILITY: THE ROLE OF SCHOOL MANAGEMENT IN VHEMBE SCHOOLS**
-  Veredas do Direito Direito Ambiental e Desenvolvimento Sustentável, 2026-09-18 | article | ZA
-  Takalani Charity Musetha, Azwidowi Aubrey Mokwebo | score 14 | [DOI](https://doi.org/10.18623/rvd.v23.7988) | [PDF libre](https://revista.domhelder.edu.br/index.php/veredas/article/download/7988/29475)
-  > The sustainability of Accounting education in secondary schools remains a concern in South Africa, particularly in rural communities where declining enrolment, teacher shortages, and resource constraints threaten the…
-- **Cryptocurrency investment intention among youth entrepreneurs in Mogadishu, Somalia: an extended theory of planned behaviour approach**
-  Cogent Business & Management, 2026-09-19 | article | SO
-  Abdikani Salah Abdulle, Hussein Mohamud Ahmed, Fahad Mohamed Hussein et al. | score 14 | [DOI](https://doi.org/10.1080/23311975.2026.2735074) | [PDF libre](https://www.tandfonline.com/doi/pdf/10.1080/23311975.2026.2735074?needAccess=true)
-  > Cryptocurrency investment has become a risky area of digital finance, especially for youth entrepreneurs in fragile economies where formal financial systems and investor-protection mechanisms remain limited. In Somalia,…
-- **Domestic Violence Among Married Secondary School Teachers: Examining Differences by Gender, Educational and Family Background in Rivers State**
-  International Journal of Advanced Academic Research, 2026-09-21 | article | NG
-  Obuah Paul Okechukwu, Paul Endurance Favour Obuah, Ogechukwu Ngozi Hyacinth | score 14 | [DOI](https://doi.org/10.46654/jte5ex96)
-  > The study assessed the difference of gender, educational background and family background on domestic violence among married persons in senior secondary schools in Rivers State, Nigeria. Three research questions and…
+- **Heterogeneity in AI attitudes, anxiety, and acceptance among psychology students and psychotherapy trainees: a domain-specific latent class analysis**
+  Frontiers in Psychology, 2026-09-14 | article | SO
+  Merve Armagan-Bogatekin | score 17 | [DOI](https://doi.org/10.3389/fpsyg.2026.1859806) | [PDF libre](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1859806/pdf)
+  > Introduction Artificial intelligence (AI) is increasingly proposed as a support tool in psychotherapy, yet little is known about how psychology students and psychotherapy trainees psychologically orient toward such…
+- **The Impact of Gender-Based Violence on High School Learners in Eswatini: Analysing Emotional, Psychological, and Academic Consequences**
+  Societies, 2026-09-04 | article | ZA
+  Gibson Makamure | score 17 | [DOI](https://doi.org/10.3390/soc16090283)
+  > This qualitative study addresses a significant gap in existing literature concerning the emotional, psychological, and academic consequences of gender-based violence (GBV) among high school learners in Eswatini, a…
+- **Gender inclusion and governance: the role of productive capacity**
+  Humanities and Social Sciences Communications, 2026-09-12 | article | CM, NG, ZA
+  Ekene ThankGod Emeka, Simplice A. Asongu | score 16 | [DOI](https://doi.org/10.1057/s41599-026-08982-3) | [PDF libre](https://www.nature.com/articles/s41599-026-08982-3_reference.pdf)
+  > Abstract The purpose of this study is twofold. First, it examines the unconditional impact of gender inclusion on governance in Africa. Second, it investigates the moderating role of productive capacity in shaping the…
+- **Mental health, HIV and healthcare-related discrimination among young sexual minority men in Kenya: implications for integrated care and stigma reduction**
+  medRxiv, 2026-09-14 | PREPRINT, non évalué | GH, KE, ZA
+  Samuel Waweru Mwaniki, Richard M. Kilonzo, Peter Mwenda Kaberia et al. | score 16 | [DOI](https://doi.org/10.64898/2026.09.12.26362875)
+  > Abstract Mental health conditions among young sexual minority men (YSMM) are a growing public health concern, yet they are understudied in sub-Saharan African settings. We aimed to estimate the prevalence of depressive…
+- **Patriarchy, Poverty and Cultural Norms: The Intersecting Drivers of HIV and Gender-Based Violence a Narrative Review with Particular Attention to Sub-Saharan Africa**
+  IDOSR JOURNAL OF SCIENCE AND TECHNOLOGY, 2026-09-02 | revue de littérature | UG
+  Nambi Namusisi H. | score 16 | [DOI](https://doi.org/10.59298/idosr/jst/26/122.118121)
+  > HIV and gender-based violence (GBV) are deeply interconnected public-health and human-rights challenges shaped by patriarchy, poverty, and harmful cultural norms. Patriarchal systems often give men greater control over…
+- **The associations between perceived family support, HIV-related stigma, and depression among PLHIV in South Africa: the moderating role of age**
+  Mental Health and Social Inclusion, 2026-09-10 | article | ZA
+  Muziwandile Qiniso Luthuli, Johannes John-Langba | score 16 | [DOI](https://doi.org/10.1108/mhsi-01-2026-0036)
+  > Purpose Depression remains a major mental health concern among people living with human immunodeficiency virus (PLHIV), with human immunodeficiency virus (HIV)-related stigma and family support identified as key…
+- **Co-development of a Mental Health Data Discovery Platform and Harmonisation of Mental Health Measures for Young People in South Africa (PAMHoYA) - A research protocol**
+  Wellcome Open Research, 2026-09-08 | article | ZA
+  Trust Gangaidzo, Lovemore Nyasha Sigwadhi, Audrey Moyo et al. | score 15 | [DOI](https://doi.org/10.12688/wellcomeopenres.27229.1)
+  > Africa’s mental health information landscape is widely recognised as fragmented, limiting planning, budgeting, and service delivery. In South Africa, this fragmentation is reflected in the collection of depression and…
+- **Does geopolitical risk shape green hydrogen innovation? Policy ecosystem, governance, energy poverty, and global heterogeneity in an age of fragmentation**
+  Energy Policy, 2026-09-03 | article | DZ
+  Brahim Bergougui | score 15 | [DOI](https://doi.org/10.1016/j.enpol.2026.115599)
+  > Whether geopolitical risk drives or impedes the clean energy transition is empirically contested. We examine the effect of country-specific geopolitical risk (GPR) on green hydrogen innovation using a balanced panel of…
+- **Gender-responsive climate-smart agriculture: a scoping review of equity, access, and participation in adaptation programs in sub-Saharan Africa**
+  Frontiers in Sustainability, 2026-09-02 | article | NG, ZA
+  Adetomiwa Kolapo, Funso Omolayo Alabuja | score 15 | [DOI](https://doi.org/10.3389/frsus.2026.1902768) | [PDF libre](https://www.frontiersin.org/journals/sustainability/articles/10.3389/frsus.2026.1902768/pdf)
+  > Climate change poses significant threats to agricultural productivity, food security, and rural livelihoods in Sub-Saharan Africa (SSA), with women disproportionately affected due to persistent inequalities in access to…
+- **Governance challenges and regulatory frameworks in combating illegal, unreported, and unregulated fishing off the Somali Coast**
+  Frontiers in Marine Science, 2026-09-04 | article | SO
+  Sakariye Ahmed Hashi, Bashir Jama Muse | score 15 | [DOI](https://doi.org/10.3389/fmars.2026.1905369) | [PDF libre](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1905369/pdf)
+  > Illegal, Unreported, and Unregulated (IUU) fishing is among the top challenges to the sustainable governance of fisheries and maritime security in Somalia. The absence of a central government since 1991, a divided…
+- **Prevalence and determinants of depression, anxiety, and stress among post-stroke patients in tertiary hospital Ghana**
+  Discover Public Health, 2026-09-02 | article | GH
+  Emmanuel Abu Bonsra, Emmanuel Twumasi, Mark Kwame Ananga | score 15 | [DOI](https://doi.org/10.1186/s12982-026-02755-8) | [PDF libre](https://link.springer.com/content/pdf/10.1186/s12982-026-02755-8.pdf)
+  > In Ghana, post-stroke patients often experience a range of psychological challenges, including depression, anxiety, and stress, which hinder their recovery and quality of life. This study assessed the prevalence and…
+- **Prevalence of test anxiety among medical students: a systematic review and meta-analysis**
+  BMC Medical Education, 2026-09-09 | revue de littérature | EG
+  Yusof Mohamed Omar, Nour Darwish, Mohamed Ashraf Elsaadany et al. | score 15 | [DOI](https://doi.org/10.1186/s12909-026-10270-2) | [PDF libre](https://link.springer.com/content/pdf/10.1186/s12909-026-10270-2.pdf)
+  > BACKGROUND: Test anxiety is a situation-specific construct that can markedly impair cognitive functioning and academic performance in high-stakes educational environments. Medical students are frequently exposed to…
+- **Relapsing-remitting multiple sclerosis understanding the disability-depression connection**
+  The Egyptian Journal of Neurology Psychiatry and Neurosurgery, 2026-09-07 | article | EG
+  Raghdaa Abdel khalek Abdel Halem, Marwa Mohamed Mahmoud Dahroug, Mohamed Mostafa EL-Hamady et al. | score 15 | [DOI](https://doi.org/10.1186/s41983-026-01228-8) | [PDF libre](https://link.springer.com/content/pdf/10.1186/s41983-026-01228-8.pdf)
+  > Abstract Background Depression is a frequent comorbidity in Multiple Sclerosis (MS), significantly affecting cases’ quality of life and adherence to treatment. Relapsing-Remitting MS (RRMS), the most prevalent subtype…
+- **Spatial dynamics of per-urban expansion and livelihood impacts in the suburbs of Shaggar City in Ethiopia’s rapidly urbanizing corridor**
+  Discover Sustainability, 2026-09-11 | article | ET
+  Deressa Chimdessa, Habtamu Tolera | score 15 | [DOI](https://doi.org/10.1007/s43621-026-04564-0)
+  > In Sub-Saharan Africa, rapid uncoordinated horizontal urban sprawl frequently collides with the preservation of peri-urban agricultural systems, creating severe governance deficits, landscape fragmentation, and…
+- **The Role of Phytomedicine in Managing Comorbid Depression and Recreational Substance Use in Epilepsy: A Systematic Review**
+  Psychoactives, 2026-09-02 | revue de littérature | ZA
+  Matome Michael Sekhotha, Mxolisi Justice Ndlovu, Morongwa J. Mojapelo et al. | score 15 | [DOI](https://doi.org/10.3390/psychoactives5030024)
+  > The development of depression frequently impacts epileptic patients due to unmanaged central nervous system changes. This may severely reduce their quality of life. These mental conditions can lead to the administration…
 
 ### Top 10 hors domaines Mau Plan
 
-- **A Systematic Literature Review of the Intersectionality of E-Filing and Tax Compliance**
-  International Journal of E-Business Research, 2026-09-18 | revue de littérature | NA, ZA
-  Mufaro Dzingirai, Brian Mabuyana, Nkosinamandla Erasmus Shezi | score 8 | [DOI](https://doi.org/10.4018/ijebr.422316) | [PDF libre](https://www.igi-global.com/ViewTitle.aspx?TitleId=422316&isxn=9798337386324)
-  > The main purpose of this study is to systematically examine the extant literature on the intersectionality of e-filing and tax compliance in the current Industry 4.0. This research utilized data from the Scopus database…
-- **A Systematic Review and Unified Framework for Predictive Maintenance in the Railway Domain**
-  Vehicles, 2026-09-21 | revue de littérature | MA
-  Driss El Hor, Rachid Bannari, Abdelfettah Bannari | score 8 | [DOI](https://doi.org/10.3390/vehicles8090220)
-  > Predictive maintenance has become an important strategy for improving asset reliability and safety, particularly with the increasing integration of artificial intelligence (AI) into maintenance processes. In the railway…
-- **A narrative review of preclinical evidence on the effects of Catha edulis on spatial cognition and memory in rodents**
-  Discover Toxicology, 2026-09-19 | revue de littérature | ET
-  Khalid Bekri, Alfoalem Araba Abiye | score 8 | [DOI](https://doi.org/10.1007/s44339-026-00066-w) | [PDF libre](https://link.springer.com/content/pdf/10.1007/s44339-026-00066-w.pdf)
-  > Background Catha edulis (khat) is a stimulant plant endemic to East Africa and the Arabian Peninsula, widely consumed for its psychostimulant effects, which are primarily attributed to cathinone and cathine. Despite an…
-- **Additional file 1 of Contemporary anticoagulation management across the spectrum of kidney disease: a narrative review and expert Recommendations by Kasralainy Nephrology Group (KANG)**
-  Figshare, 2026-09-17 | revue de littérature | EG
-  Amin Roshdy Soliman, S. Khashab, Ahmed Fayed et al. | score 8 | [DOI](https://doi.org/10.6084/m9.figshare.33918970)
-  > Supplementary Material 1.
-- **Additional file 1 of Contemporary anticoagulation management across the spectrum of kidney disease: a narrative review and expert Recommendations by Kasralainy Nephrology Group (KANG)**
-  Figshare, 2026-09-17 | revue de littérature | EG
-  Amin Roshdy Soliman, S. Khashab, Ahmed Fayed et al. | score 8 | [DOI](https://doi.org/10.6084/m9.figshare.33918970.v1)
-  > Supplementary Material 1.
-- **Antibiotic-induced alterations of biogeochemical processes of nitrogen mediated by microorganisms in hyporheic zone and their environmental implications: A systematic review**
-  Ecohydrology & Hydrobiology, 2026-09-18 | revue de littérature | NG
-  Sadiq Bishir, Ibrahim Yahaya Aliyu, Aminu Abdullahi et al. | score 8 | [DOI](https://doi.org/10.1016/j.ecohyd.2026.100813)
-  > Antibiotics persist as critical pervasive pollutants within hyporheic zones, exerting selective pressures that disrupt the essential nitrogen (N) cycling. This systematic review synthesises the current evidence on how…
-- **Artificial Intelligence and Innovation in Tourism SMEs: A Bibliometric and Systematic Review with a Constraint-Enabled Perspective**
-  F1000Research, 2026-09-22 | revue de littérature | ZA
-  Yohannes Mekonnen Yesuf, Ziska Fields | score 8 | [DOI](https://doi.org/10.12688/f1000research.190262.1)
-  > Artificial intelligence (AI) as a strategic driver of tourism innovation is widely recognized; however, its effect on small and medium-sized enterprises’ (SMEs) innovation performance (in developing countries) remains…
-- **Artificial Intelligence and Machine Learning for Crop Disease Detection: A Systematic Review and Research Agenda**
-  Journal of Biotechnology and Agricultural Research, 2026-09-19 | revue de littérature | NG
-  Istifanus,, S.D., D. A. Adedokun, I. J. OGWU et al. | score 8 | [DOI](https://doi.org/10.70382/ajbar.v13i1.041) | [PDF libre](https://africanscholarpub.com/ajbar/article/download/1680/1516)
-  > Crop diseases constrain global agricultural productivity and food security, particularly for smallholder farmers who lack timely, affordable diagnostic tools. Artificial intelligence and machine learning have…
-- **Artificial intelligence, digital transformation and green human resource management in Sub-Saharan Africa: a systematic literature review**
-  International journal of organizational analysis, 2026-09-21 | revue de littérature | ZA
-  Nyikiwa Agreement Mavunda | score 8 | [DOI](https://doi.org/10.1108/ijoa-05-2026-7105)
-  > Purpose This study aims to systematically review the existing scholarship on the role of artificial intelligence (AI) and digital transformation in enabling green human resource management (GHRM) within Sub-Saharan…
-- **Botany, cultivation and bioactive constituents of Lobostemon fruticosus: A systematic review**
-  Journal of Medicinal Plants for Economic Development, 2026-09-22 | revue de littérature | ZA
-  Luvolwethu Dukashe, Rotondwa Pascalia Gunununu, Azwimbavhi Reckson Mulidzi et al. | score 8 | [DOI](https://doi.org/10.4102/jomped.v10i1.333)
-  > Background: Lobostemon fruticosus (L.) H. Buek is a medicinal plant indigenous to South Africa, traditionally used in the treatment of skin-related conditions. Wild populations of L. fruticosus, currently serving as the…
+- **Hepatitis B virus seroprevalence, associated factors, and liver fibrosis burden among people living with HIV in Uganda: a systematic review**
+  Bulletin of the National Research Centre/Bulletin of the National Research Center, 2026-09-02 | revue de littérature | KE, UG
+  Henry Kenric Kinene, Raha Zihindula, Tambwe Patrick et al. | score 11 | [DOI](https://doi.org/10.1186/s42269-026-01481-0) | [PDF libre](https://link.springer.com/content/pdf/10.1186/s42269-026-01481-0.pdf)
+  > Abstract Background Hepatitis B virus (HBV) and HIV coinfection remains an important cause of liver-related morbidity and mortality in sub-Saharan Africa. Uganda carries a substantial burden of both infections, yet…
+- **Sustainable development education, English language proficiency, and graduate employability in higher education: a narrative review**
+  Discover Sustainability, 2026-09-03 | revue de littérature | SO
+  Mohamedamin Moalim Omar Mohamed, Ahmed Abdullahi Mohamud, Abdiwali Ali Addow | score 11 | [DOI](https://doi.org/10.1007/s43621-026-04533-7)
+  > Higher education institutions are increasingly expected to prepare graduates who are not only technically competent but also globally communicative and sustainability literate. This narrative review synthesizes…
+- **The unintended consequences of health policy processes: a qualitative systematic review of experience with the 2007 Occupation-Specific Dispensation (OSD) strategy in the South African public nursing sector**
+  Health Policy and Planning, 2026-09-04 | revue de littérature | ZA
+  Dane Witten, Eleanor Beth Whyle | score 11 | [DOI](https://doi.org/10.1093/heapol/czag107) | [PDF libre](https://academic.oup.com/heapol/advance-article-pdf/doi/10.1093/heapol/czag107/70965390/czag107.pdf)
+  > Health policies inevitably produce unintended consequences when introduced into a health system. These consequences can be linked to factors occurring before and throughout a policy's development and implementation.…
+- **Clinical outcomes and satisfaction among low back pain patients following orthopedic manual therapy: systematic review**
+  Bulletin of Faculty of Physical Therapy, 2026-09-04 | revue de littérature | KE
+  Kelvin Nzomo Kavita, Wallace M. Karuguti, Joseph M. Matheri | score 11 | [DOI](https://doi.org/10.1186/s43161-026-00375-6) | [PDF libre](https://link.springer.com/content/pdf/10.1186/s43161-026-00375-6.pdf)
+  > Abstract Background Low back pain (LBP) is one of the leading causes of disability worldwide, with significant socioeconomic and health system burdens. Orthopedic manual therapy (OMT), which comprises spinal…
+- **Epidemiology and clinical characteristics of pediatric foreign body aspiration in sub-Saharan Africa: a systematic review and meta-analysis**
+  Tropical Medicine and Health, 2026-09-07 | revue de littérature | ET
+  Yohannis Derbew Molla, Suleiman Ayalew Belay, Haymanot Bekele Urga | score 11 | [DOI](https://doi.org/10.1186/s41182-026-01049-8) | [PDF libre](https://link.springer.com/content/pdf/10.1186/s41182-026-01049-8.pdf)
+  > Foreign body aspiration (FBA) is a significant cause of accidental death in children under three years worldwide and is perhaps the most time-sensitive emergency in pediatric medicine. While high-income countries have…
+- **Training and Preparation Methods Relevant to Elite 5000 m Track Performance: A Systematic Review**
+  Sports, 2026-09-07 | revue de littérature | ZA
+  Clinton Swanepoel, Charl Jacobus Roux, Heather Morris-Eyton | score 11 | [DOI](https://doi.org/10.3390/sports14090397)
+  > Elite 5000 m track performance depends on the integration of endurance training, race-specific speed, tactical decision-making, technology, physiological characteristics, and individualized athlete support. This…
+- **The Trend in Studies on Decoloniality, Artificial Intelligence and University Classrooms: A Systematic Review of African Higher Education Scholarship**
+  Trends in Higher Education, 2026-09-07 | revue de littérature | ZA
+  Bunmi Isaiah Omodan, Sindile Amina Ngubane | score 11 | [DOI](https://doi.org/10.3390/higheredu5030092)
+  > The convergence of decoloniality, artificial intelligence (AI), and university classroom practice has emerged as a pressing concern in African higher education. While decolonial movements such as Rhodes Must Fall and…
+- **Narrative review of the concepts, functions, components, and evaluation of housing environments in Nigeria**
+  Frontiers in Built Environment, 2026-09-08 | revue de littérature | NG
+  Adedotun Akinola, Eziyi Ibem, Akunnaya Opoko et al. | score 11 | [DOI](https://doi.org/10.3389/fbuil.2026.1804933) | [PDF libre](https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2026.1804933/pdf)
+  > This study provides a structured narrative mini-review of the concepts, functions, components, and evaluation of housing environments in Nigeria. It presents an overview of the role of housing in contributing to…
+- **Zero-dose childhood vaccination and associated factors in Ethiopia: A systematic review and meta-analysis**
+  Vaccine X, 2026-09-09 | revue de littérature | ET
+  Molalign Aligaz Adisu, Abraham Dessie Gessesse, Yabibal Asfaw Derso et al. | score 11 | [DOI](https://doi.org/10.1016/j.jvacx.2026.100902) | [PDF libre](https://www.sciencedirect.com/science/article/pii/S2590136226001257/pdf)
+  > Background Globally, 14 million children are zero-dose, with Ethiopia accounting for approximately 5% of that burden. This study aims to provide national estimates of the pooled prevalence and factors associated with…
+- **A systematic review of AI powered adaptive smart home security using multimodal sensor fusion edge intelligence and privacy preserving architectures**
+  Discover Artificial Intelligence, 2026-09-09 | revue de littérature | MA
+  Zineb Lazrak, Anas Bouayad, Marwa Boumaiz | score 11 | [DOI](https://doi.org/10.1007/s44163-026-02157-4) | [PDF libre](https://link.springer.com/content/pdf/10.1007/s44163-026-02157-4.pdf)
+  > The rapid proliferation of IoT devices and AI-driven sensing has transformed modern residences into intelligent cyber-physical environments, simultaneously expanding their attack surface to physical intrusions,…
 
 ## Section 2 — Sujet Afrique ou populations noires, auteurs hors Afrique
 
-### 🌿 Environnement & Eau — 0 affichés sur 0
+### 🌿 Environnement & Eau — 15 affichés sur 139
 
-_Aucun travail cette semaine._
+- **Application of multivariate statistics and ecological-health risk indices for pollution assessment in river Gwagwalada, Nigeria: a multi-compartment approach**
+  Scientific African, 2026-09-14 | article | 
+  Abdulwasiu Olawale Salaudeen, Benjamin Aina Olorunmaye | score 16 | [DOI](https://doi.org/10.1016/j.sciaf.2026.e03641)
+  > This study integrated multivariate statistical techniques and pollution index models to evaluate the physicochemical characteristics, heavy metal contamination, sediment geochemistry, and bioaccumulation patterns in…
+- **Multivariate Statistical Assessment of Surface Water Quality and Pollution Sources in Jakara River Basin, Northwestern Nigeria**
+  Nigerian Journal of Biotechnology and Life Sciences, 2026-09-04 | article | 
+  Aisha Muhammad Tijjani | score 15 | [DOI](https://doi.org/10.67601/njbls.v3i2.37) | [PDF libre](https://njbls.fud.edu.ng/index.php/njbls/article/download/37/27)
+  > This study investigates the physicochemical parameters and heavy metal concentrations in Jakara River, Kano State, Nigeria, using multivariate statistical techniques to identify pollution sources and assess water…
+- **Spatio-Temporal Assessment of Heavy Metal Contamination and Associated Human Health and Ecological Risks in the Ona River, Ibadan, Nigeria**
+  International Journal of Innovative Science and Research Technology (IJISRT), 2026-09-19 | article | 
+  Praise Adenike Alli, Samuel Opeyemi Kayode, Oyewumi Tolulope Ajao et al. | score 14 | [DOI](https://doi.org/10.38124/ijisrt/26sep070)
+  > Freshwater rivers are critical for human livelihoods, agriculture, industry, and ecosystem services, yet they face increasing pressure from urbanization, industrialization, and agricultural runoff. The Ona River in…
+- **Beyond the no-harm rule: risk-based due diligence and transboundary flood governance in the Shabelle and Juba basins**
+  Frontiers in Environmental Science, 2026-09-18 | article | auteurs : CY
+  Farah Abdikarim Hersi, Sangar Dawood Mohammed Amri | score 13 | [DOI](https://doi.org/10.3389/fenvs.2026.1934087) | [PDF libre](https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2026.1934087/pdf)
+  > Introduction Transboundary water law has traditionally focused on water allocation, scarcity, and pollution, while the governance of transboundary flood risks associated with upstream water infrastructure has received…
+- **Climate Change and Biodiversity Hotspots: Patterns of Adaptation, Resilience, and Species Loss**
+  Current World Environment, 2026-09-10 | article | auteurs : IN
+  Jyoti Arora | score 13 | [DOI](https://doi.org/10.12944/cwe.21.2.3)
+  > Abstract Biodiversity hotspots possess large numbers of endemic species in landscapes already threatened by extreme habitat loss. This review highlights how climate change is altering vulnerability, adaptation,…
+- **Ethnobotanical and phytochemical insights into native and naturalized plants for cashew pest control in Guinea-Bissau**
+  Scientific Reports, 2026-09-23 | article | 
+  Paola Vanessa Sierra Baquero, Filipa Monteiro, María Cristina Duarte et al. | score 12 | [DOI](https://doi.org/10.1038/s41598-026-70051-1)
+  > Abstract Essential oils are increasingly recognized as ecofriendly alternatives to synthetic pesticides, especially in tropical regions with high pest pressure and limited crop protection resources. This study evaluates…
+- **Heavy Metal Contamination, Bioaccumulation and Potential Human Health Risks in Soils and Vegetables Irrigated Along River Delimi, Jos Metropolis, Nigeria**
+  International Journal of Innovative Science and Research Technology (IJISRT), 2026-09-22 | article | 
+  Kawai Mataru Joseph, Y. B. Akut, S. M. Loms et al. | score 12 | [DOI](https://doi.org/10.38124/ijisrt/26aug1120)
+  > This study assessed the concentrations of six heavy metals (Pb, Cr, Cd, Cu, Zn, and Ni) in soils and vegetables (cabbage and lettuce) collected from selected Fadama farms in Jos Metropolis, namely Katako Bridge, Farin…
+- **Climate change, vegetation dynamics, and maize production in Mozambique: evidence from method of moments quantile regression and machine learning**
+  Frontiers in Sustainable Food Systems, 2026-09-03 | article | auteurs : CN
+  Faustino Dinis, Jianbo Hu, Nazir Muhammad Abdullahi | score 11 | [DOI](https://doi.org/10.3389/fsufs.2026.1889991) | [PDF libre](https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1889991/pdf)
+  > This study examines the impacts of climate variability and vegetation dynamics on maize production across 10 provinces in Mozambique using a balanced panel dataset covering the period 2002–2023. Following confirmation…
+- **Dose-Dependent Antagonistic Effects of Montmorillonite on Cadmium Removal Efficiency and Metabolic Defense of Aspergillus niger**
+  Biology, 2026-09-07 | article | auteurs : CN
+  Lin Zhang, Yuwen He, Kun Mao et al. | score 11 | [DOI](https://doi.org/10.3390/biology15171564)
+  > Cadmium (Cd) pollution threatens global ecosystems and human health owing to its high toxicity, long-term persistence, and dual irreversibility of environmental geochemical behavior and biological toxicological effects.…
+- **Urban pollution signatures and environmental filtering of benthic macroinvertebrates along abiotic gradients in a semi-arid river in botswana**
+  Environmental Challenges, 2026-09-14 | article | 
+  Thomamo B Benjamin, Kelemogile Mmolawa, Gaolethe Tsheboeng et al. | score 11 | [DOI](https://doi.org/10.1016/j.envc.2026.101661)
+- **Building bridges across borders to co-develop flood early warning in the Sahel**
+  Advances in science and research, 2026-09-18 | article | auteurs : IT
+  Vieri Tarchiani, Daniele Ganora, Riccardo Vesipa et al. | score 10 | [DOI](https://doi.org/10.5194/asr-23-21-2026) | [PDF libre](https://asr.copernicus.org/articles/23/21/2026/asr-23-21-2026.pdf)
+  > Flood risk in the Sahel has increased markedly over recent decades, driven by the intensification of hydro-climatic hazards and the rapid growth of exposure in urban and peri-urban areas. In this context, FEWSs (FEWSs)…
+- **Climate Change, Sustainable Development Goal 13, and Adaptive Pathways in the Kenyan Drylands Using Social Media**
+  Humans, 2026-09-02 | article | 
+  Kathleen Galvin, Zoey Walder-Hoge, Melinda Laituri | score 10 | [DOI](https://doi.org/10.3390/humans6030032)
+  > This study examines social media communication in Kenya to assess how dryland pastoral concerns are represented in national climate policy dialogues. Approximately 80% of Kenya’s land area consists of drylands that…
+- **Determination of Heavy Metal Concentration in Muscle Tissue of Silver Catfish (Chrysichthys nigrodigitatus) from Qua Iboe River Estuary, Southeastern Nigeria**
+  International Journal of Environmental Sciences & Natural Resources, 2026-09-15 | article | 
+  Abiaobo NO, II Akpan, IE Asuquo et al. | score 10 | [DOI](https://doi.org/10.19080/ijesnr.2026.37.556465)
+- **ETHNOBOTANICAL STUDY OF TRADITIONAL MEDICINAL PLANTS USED BY INDEGINOUS PEOPLE OF YEMALOGI WALAL DISTRICT, OROMIA NATIONAL REGIONAL STATE, ETHIOPIA**
+  National Academic Digital Repository of Ethiopia, 2026-09-03 | article | 
+  MEZGEBU LIGABA NEGASA | score 10 | [DOI](https://doi.org/10.20372/nadre:25979)
+  > ABSTRACT The ethnobotanical study conducted in the Yemalogi District of Kellem Wollaga Zone, Oromia National Regional State, Ethiopioa, aimed to investigate traditional medicinal plants used by indigenous communities in…
+- **National-Scale Flood Susceptibility Mapping of Nigeria Using Statistical and Machine Learning Models with Satellite-Driven Validation for Data-Sparse Environments**
+  Remote Sensing, 2026-09-22 | article | auteurs : US
+  Dorcas Idowu, Jessica Boakye, Wendy Zhou | score 10 | [DOI](https://doi.org/10.3390/rs18193264)
+  > Flooding is the most recurrent and economically devastating natural hazard in Nigeria, yet no standard or consistent nationwide assessment method exists. Spatially explicit flood susceptibility information also remains…
 
-### 🩺 Santé au travail & santé des femmes — 0 affichés sur 0
+### 🩺 Santé au travail & santé des femmes — 15 affichés sur 52
 
-_Aucun travail cette semaine._
+- **A systematic review and meta-analysis of physician resident burnout in Egypt**
+  BMC Public Health, 2026-09-18 | revue de littérature | auteurs : DE, GB
+  Abdelrahman M Makram, Phyllis Chan, Samantha Alvarez‐Madrazo et al. | score 14 | [DOI](https://doi.org/10.1186/s12889-026-29497-1)
+  > Abstract Background Physician resident burnout in Egypt represents a critical concern for the well-being of healthcare professionals and the quality of patient care. This systematic review and meta-analysis aimed to…
+- **Magnesium sulfate for severe preeclampsia and eclampsia management at the primary healthcare level in sub-Saharan Africa: a systematic review**
+  Frontiers in Reproductive Health, 2026-09-10 | revue de littérature | auteurs : US
+  Assitan Baya Sidibe, Alexandre Délamou, Fatoumata Traoré et al. | score 12 | [DOI](https://doi.org/10.3389/frph.2026.1911083) | [PDF libre](https://www.frontiersin.org/journals/reproductive-health/articles/10.3389/frph.2026.1911083/pdf)
+  > Background Preeclampsia and eclampsia are major causes of maternal and perinatal morbidity and mortality in low- and middle-income countries. Magnesium sulfate (MgSO₄) is the most effective intervention for eclampsia…
+- **Knowledge, Perceptions, and Willingness to use Artificial Intelligence in Disease Surveillance among Primary Health Care Workers in Calabar Metropolis, Cross River State, Nigeria: A Cross-sectional Study.**
+  Christian Journal for Global Health, 2026-09-21 | article | 
+  Fidelis Takim Otu, Susan Chisombiri Eziamaka, Josephine Joseph Okon et al. | score 11 | [DOI](https://doi.org/10.15566/y5yf9939)
+  > Background: Artificial Intelligence (AI) has emerged as a transformative tool in the health sector, offering the potential to revolutionize how diseases are monitored and managed. Despite its growing relevance, the…
+- **Mapping Pharmacogenomic Determinants of Adverse Drug Reactions in Hypertension: A Systematic Review**
+  Pharmaceuticals, 2026-09-18 | revue de littérature | auteurs : IN
+  Viola Savy Dsouza, Jestina Rachel Kurian, Manoj Kalita et al. | score 10 | [DOI](https://doi.org/10.3390/ph19091488)
+  > Objectives: Adverse drug reactions (ADRs) to antihypertensive medications contribute to poor medication adherence and treatment discontinuation. Pharmacogenomic approaches offer a potential means of identifying genetic…
+- **Patterns and Outcomes of Occupational Injuries in Emergency Departments at Nigerian Hydropower Plant Hospitals: A Retrospective Study**
+  medRxiv, 2026-09-04 | PREPRINT, non évalué | 
+  John Olusola Ojo | score 10 | [DOI](https://doi.org/10.64898/2026.08.31.26361543)
+  > Abstract Occupational injuries remain a cause of preventable morbidity and death, but evidence from emergency departments in Nigeria is limited. This retrospective study described occupational injuries treated at two…
+- **Vitamin D status and breast cancer prevalence among US women: a descriptive cross‑sectional analysis of NHANES 2001‑2018**
+  BMC Public Health, 2026-09-07 | article | auteurs : IN, PE, YE
+  Iana A Malasevskaia, Delvy Rebellow, Diana Baltodano et al. | score 10 | [DOI](https://doi.org/10.1186/s12889-026-29343-4)
+  > Abstract Background Studies have reported an inverse association between vitamin D and breast cancer risk. However, most prior research has used prospective designs with vitamin D measured before diagnosis, leaving…
+- **A co-production study of an art-based media campaign intervention to encourage early breast cancer screening uptake among Black women in England**
+  Frontiers in Public Health, 2026-09-03 | article | auteurs : GB, US
+  Tarela Juliet Ike, Dung Ezekiel Jidong, Mieyebi Lawrence Ike et al. | score 9 | [DOI](https://doi.org/10.3389/fpubh.2026.1875785) | [PDF libre](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1875785/pdf)
+  > Background: Breast cancer is one of the most common cancers that affects women globally. Of central concern are Black women in the United Kingdom who are disproportionately affected, present late and suffer higher…
+- **Between duty and distress: a phenomenological study of moral dilemmas and emotional labor among Chinese medical aid workers in Botswana**
+  BMC Nursing, 2026-09-07 | article | auteurs : CN
+  Jinjing Zheng, Fang Liu, Suqin Xia et al. | score 9 | [DOI](https://doi.org/10.1186/s12912-026-05323-2)
+  > Chinese medical aid teams play a crucial role in providing healthcare services in Botswana. However, healthcare professionals in these teams often face complex clinical environments and resource constraints that differ…
+- **Beyond Decarbonization: Human Rights, Vulnerable Workers, and an Operational Framework for Just Climate Transitions**
+  Sustainable Development, 2026-09-10 | article | auteurs : CA
+  Jacob Kwakye, Solomon Tawiah McBanasam | score 9 | [DOI](https://doi.org/10.1002/sd.71653) | [PDF libre](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sd.71653)
+  > ABSTRACT Climate transitions are widely presented as pathways toward decarbonization, green growth, and sustainable development, yet their social effects are mediated by labour‐market segmentation, regional dependence,…
+- **Declining trends but persistent disparities in cervical cancer mortality in the United States, 1999–2023**
+  Frontiers in Public Health, 2026-09-03 | article | auteurs : CN
+  Jie Liu, Yonglin Liu, Yanjiao Jiang et al. | score 9 | [DOI](https://doi.org/10.3389/fpubh.2026.1892243) | [PDF libre](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1892243/pdf)
+  > Background Cervical cancer is largely preventable through effective screening and human papillomavirus (HPV) vaccination; however, mortality disparities remain a persistent public health challenge in the United States.…
+- **Evaluation of a National Health Service Machine-Learning Model for Hypertension Case-Finding: Retrospective Cohort Study**
+  Journal of Medical Internet Research, 2026-09-15 | article | auteurs : GB
+  Gloria Ihenetu, Ahmad Alkhatib, Vesselin Novov et al. | score 9 | [DOI](https://doi.org/10.2196/87084)
+  > Background: Hypertension is a leading preventable cause of cardiovascular disease, yet a substantial proportion of adults remain undiagnosed, limiting opportunities for early intervention. A predictive model was…
+- **Health and access to healthcare among migrant agricultural workers in Spain: A mixed-methods study**
+  Health & Place, 2026-09-22 | article | auteurs : ES
+  Lena van Selm, Sarah Williams, Alejandro Rodríguez et al. | score 9 | [DOI](https://doi.org/10.1016/j.healthplace.2026.103738)
+  > BACKGROUND: Migrant agricultural workers (MAW) play a central role in sustaining Spain's agricultural labor markets, yet they remain disproportionately exposed to precarious working and living conditions with…
+- **Healthcare Workers’ Perspectives on Medical Toxicology Needs at a Tertiary Referral Hospital in Abuja, Nigeria: A Qualitative Study**
+  Preprints.org, 2026-09-08 | PREPRINT, non évalué | 
+  Carine Johanna Marks, Daniël Jacobus van Hoving, Auwal Ahmad et al. | score 9 | [DOI](https://doi.org/10.20944/preprints202609.0616.v1)
+  > Acute poisoning places a substantial burden on health systems in low- and middle-income countries, where limited medical toxicology capacity can constrain timely diagnosis, treatment, and prevention. However, little is…
+- **Measuring parental burnout: Adaptation and validation of the Arabic version of the Parental Burnout Assessment**
+  International Journal of Personality Psychology, 2026-09-16 | article | 
+  Sleh Eddine Saâdi | score 9 | [DOI](https://doi.org/10.21827/ijpp.12.43575) | [PDF libre](https://ijpp.rug.nl/article/download/43575/40624)
+  > Parental burnout has emerged as a distinct psychological condition with important consequences for parents, children, and family functioning. This study aimed to evaluate the psychometric properties of the Tunisian…
+- **Racial disparities in off-guideline endovascular treatments for acute ischaemic stroke**
+  Stroke and Vascular Neurology, 2026-09-10 | article | auteurs : US
+  Jacklyn Samaha, Ngoc Mai Le, Ananya S. Iyyangar et al. | score 9 | [DOI](https://doi.org/10.1136/svn-2025-004739)
+  > Introduction Endovascular thrombectomy (EVT) is an established treatment for large vessel occlusion acute ischaemic stroke, and indications have expanded to include broader patient groups. Whether this expansion has…
 
-### 🌾 Alimentation & Sécurité — 0 affichés sur 0
+### 🌾 Alimentation & Sécurité — 15 affichés sur 104
 
-_Aucun travail cette semaine._
+- **Comparison of Two Inoculum Preparation Protocols for Improving the Nutritional Quality of Soybean Meal Fermented with Aspergillus niger and Candida tropicalis**
+  Fermentation, 2026-09-22 | article | auteurs : CN
+  Xiaohui Li, Jinxiu Yu, Ke Tong et al. | score 13 | [DOI](https://doi.org/10.3390/fermentation12100445)
+  > This study compared two inoculum preparation protocols for the mixed fermentation of unsterilized soybean meal (SBM) with Aspergillus niger and Candida tropicalis. The mono-culture-derived (MO-C) inoculation protocol…
+- **Exploring the association between women's Minimum dietary diversity and household food security in urban and rural Burkina Faso: Insights from the 2021 Demographic and Health Survey**
+  Nutrition and Health, 2026-09-10 | article | auteurs : CA
+  Narges Ebadi, Davod Ahmadi | score 13 | [DOI](https://doi.org/10.1177/02601060261486932)
+  > Burkina Faso faces one of the world's most severe food and nutrition crises, driven by armed conflict, political instability, environmental degradation, and entrenched poverty. Violence and displacement have restricted…
+- **Replacing the protein source of the diet of goats with Retama monosperma (L.) Boiss. seed: Effect on intake, digestibility, ruminal fermentation, and health status**
+  The Veterinary Journal, 2026-09-14 | article | auteurs : CR, ES
+  Michael López-Herrera, Sara Muñoz-Vallés, José Luis Guzmán et al. | score 13 | [DOI](https://doi.org/10.1016/j.tvjl.2026.106884)
+  > Current strategies in animal nutrition aim to reduce reliance on conventional protein sources by promoting sustainable alternatives. Retama monosperma (L.) Boiss, an endemic shrub of the Iberian Peninsula and Morocco…
+- **Stress-tolerant maize under drought: heterogeneous effects on productivity and food security in Zimbabwe**
+  Food Security, 2026-09-16 | article | auteurs : BD, MX
+  Michael Euler, Jill E. Cairns, Hambulo Ngoma et al. | score 13 | [DOI](https://doi.org/10.1007/s12571-026-01709-x) | [PDF libre](https://link.springer.com/content/pdf/10.1007/s12571-026-01709-x.pdf)
+  > Abstract Stress-tolerant crop varieties are widely promoted to enhance the resilience of smallholder farming systems under increasing climate variability. By stabilizing production under adverse conditions, such…
+- **Science and technology for food system transformation: Integrating edible biodiversity, grassland conservation, nutrition, and climate resilience in Ghana and Africa**
+  Journal of Agriculture and Food Research, 2026-09-16 | article | auteurs : CN
+  Kwame Anokye, Huang Rong, Zhen-fen Zhang | score 12 | [DOI](https://doi.org/10.1016/j.jafr.2026.103302) | [PDF libre](https://www.sciencedirect.com/science/article/pii/S2666154326006733/pdf)
+  > ABSTRACT Grassland ecosystems in Ghana and comparable African savanna regions support diverse plant resources that contribute to food security, ecosystem functioning, and climate adaptation. However, many edible plant…
+- **Chiguru Adivasi Birth cohort study: A protocol for examining the effects of parental substance use on child development in southern Indian Adivasi communities.**
+  Wellcome Open Research, 2026-09-15 | article | auteurs : BE, IN, QA
+  Yogish Channa Basappa, Prafulla Shriyan, Giridhara R. Babu et al. | score 11 | [DOI](https://doi.org/10.12688/wellcomeopenres.24612.2)
+  > Background Children of parents who use tobacco and alcohol are at risk of adverse emotional, social, behavioural and cognitive outcomes, and of malnutrition. The co-occurrence of a high malnutrition burden and rising…
+- **Determinants of Maternal Malnutrition and Child Health in Balanga LGA, Gombe State, Nigeria: A Qualitative Study**
+  International Journal of Public Health and Nursing, 2026-09-14 | article | 
+  Rosemary Dickson-Nze, Paul Balogun, Laughter Amamchukwu et al. | score 11 | [DOI](https://doi.org/10.54536/ijphn.v2i2.7160) | [PDF libre](https://journals.e-palli.com/home/index.php/ijphn/article/download/7160/4023)
+  > Maternal malnutrition remains a key driver of adverse birth outcomes in sub-Saharan Africa, yet contextual evidence on multi-level determinants in north-eastern Nigeria is scarce. This study explored how socio-cultural,…
+- **Dietary Pattern, Diversity and Nutritional Status of Pregnant Women in Urban and Rural Areas of Ogbomoso, Oyo State, Nigeria**
+  Asian Food Science Journal, 2026-09-08 | article | 
+  Jelili Akorede Quadri, Arowosaye Mariam Damilola, Yetunde Jumoke Osinowo et al. | score 11 | [DOI](https://doi.org/10.9734/afsj/2026/v25i10920)
+  > Adequate maternal nutrition is essential for the health and well-being of both the mother and the developing fetus. However, poor dietary diversity and malnutrition remain important nutritional challenges among pregnant…
+- **Heterogeneous impact of household resilience on food and nutrition security: evidence from Senegal**
+  Agriculture & Food Security, 2026-09-12 | article | auteurs : DE
+  Adama Faye, Awudu Abdulai | score 11 | [DOI](https://doi.org/10.1186/s40066-026-00630-y) | [PDF libre](https://link.springer.com/content/pdf/10.1186/s40066-026-00630-y.pdf)
+  > Abstract This study investigates the heterogeneous impact of household resilience on food and nutrition security, using household-level data from Senegal. We use the Resilience Index Measurement and Analysis II…
+- **Soil-Transmitted Helminths and Their Impact on Nutritional and Anaemia Status Among School-Aged Children in Some Schools in Dutsin-Ma, Katsina State Nigeria**
+  Journal of Science Research and Reviews, 2026-09-20 | article | 
+  Maryam Yusuf, Adamu Isa, Esther Samuel Danjuma et al. | score 11 | [DOI](https://doi.org/10.70882/josrar.2026.v3i5.273) | [PDF libre](https://josrar.esrgngr.org/index.php/josrar/article/download/273/190)
+  > Malnutrition and anaemia among school-aged children, particularly in developing nations, are serious public health issues linked to soil-transmitted helminths (STHs). This study aimed to investigate STHs and their…
+- **The Digital Transformation of Indigenous Food Processing and Preservation Practices in Sierra Leone: Opportunities, Challenges and Implications for Food Security**
+  International Journal of Innovative Science and Research Technology (IJISRT), 2026-09-12 | article | 
+  Fatmata Fauziatu Vincent, Hamza Amin Kargbo | score 11 | [DOI](https://doi.org/10.38124/ijisrt/26sep148) | [PDF libre](https://www.ijisrt.com/assets/upload/files/IJISRT26SEP148.pdf)
+  > Sierra Leone food system contains a large body of practical knowledge developed through rice parboiling, cassava fermentation, fish smoking, sun drying, oil extraction and other household or small-enterprise techniques.…
+- **Clean Cooking Energy Adoption and Household Food Security in West Africa: Panel Data Evidence**
+  Sustainable Development, 2026-09-08 | article | auteurs : FR
+  Arouna Kouandou, Moustapha Mounmemi | score 10 | [DOI](https://doi.org/10.1002/sd.71644)
+  > ABSTRACT Achieving Sustainable Development Goal 2 (Zero Hunger) and Sustainable Development Goal 7 (Affordable and Clean Energy Access) remains a major challenge in Sub‐Saharan Africa, yet their interaction remains…
+- **Cost-effectiveness of subnational targeting of small-quantity lipid-based nutrient supplementation: A simulation model in Nigeria, Ethiopia, and Pakistan**
+  medRxiv, 2026-09-07 | PREPRINT, non évalué | auteurs : US
+  Alison Bowman, Sylvia Lutze, Zeb Burke-Conte et al. | score 10 | [DOI](https://doi.org/10.64898/2026.09.03.26362091)
+  > Abstract Introduction Small-quantity lipid-based nutrient supplementation (SQ-LNS) is an intervention that provides supplemental nutrition to young children and has significant impacts on mortality, nutrition, and…
+- **Dietary factors and myopia development: a novel bionic animal model approach**
+  BMC Research Notes, 2026-09-02 | article | auteurs : CN
+  Xuequan Sun, Chenchen Zou, Fangxing Zhu et al. | score 10 | [DOI](https://doi.org/10.1186/s13104-026-08003-1)
+  > To establish a bionic animal myopia model by altering the dietary structure of guinea pigs and assess the impact of dietary factors on myopia development. Guinea pigs were assigned to three groups: Normal Control (NC),…
+- **Discovery and Validation of Gut Microbiome Features Associated with Dietary Patterns in U.S. Black/African and Hispanic/Latino Populations**
+  medRxiv, 2026-09-10 | PREPRINT, non évalué | auteurs : US
+  Lei Wang, Yanbo Zhang, Sang Minh NGUYEN et al. | score 10 | [DOI](https://doi.org/10.64898/2026.09.04.26362286) | [PDF libre](https://www.medrxiv.org/content/medrxiv/early/2026/09/10/2026.09.04.26362286.full.pdf)
+  > Abstract Background Large-scale studies examining dietary patterns and gut microbiome have focused predominantly on European ancestry populations; evidence from other ancestry groups remains limited. Objectives We…
 
-### 🧠 Sciences sociales & Psychologie — 0 affichés sur 0
+### 🧠 Sciences sociales & Psychologie — 15 affichés sur 178
 
-_Aucun travail cette semaine._
+- **Biomarkers in maternal mental health research in Indonesia: toward a pragmatic hybrid framework in low-resource settings**
+  Frontiers in Psychiatry, 2026-09-10 | article | auteurs : ES, ID
+  Siti Khuzaiyah, Rini Kristiyanti, Gina Anindyajati et al. | score 17 | [DOI](https://doi.org/10.3389/fpsyt.2026.1796186) | [PDF libre](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1796186/pdf)
+  > Maternal mental health has become an emerging issue recently, including in Indonesia.National data indicate that the prevalence of postpartum depression (PPD) among young mothers (15-24 years) was 4.0%, with higher…
+- **Risk and protective factors for psychological distress, anxiety, depression, and PTSD in unaccompanied minor migrants in Spain**
+  European Child & Adolescent Psychiatry, 2026-09-11 | article | auteurs : ES
+  Marta Franch-Roca, Rachid El Hafi-Elmokhtari, Iago Giné-Vázquez et al. | score 16 | [DOI](https://doi.org/10.1007/s00787-026-03143-y) | [PDF libre](https://link.springer.com/content/pdf/10.1007/s00787-026-03143-y.pdf)
+  > Unaccompanied minor migrants represent a rapidly growing and vulnerable population in Southern Europe, yet no comprehensive quantitative data have examined the multiple factors shaping their mental health outcomes in…
+- **Gender, Governance and Blue Livelihoods: A Strategic Framework for Inclusive Locally Managed Marine Areas in the Western Indian Ocean**
+  Integrative and Comparative Biology, 2026-09-09 | article | auteurs : BD
+  Magdalyne Were, Coline Camier, Imogen E. Napper et al. | score 15 | [DOI](https://doi.org/10.1093/icb/icag161)
+  > Locally Managed Marine Areas (LMMAs) are an important component of community-based marine conservation in the Western Indian Ocean (WIO), yet persistent gender inequalities in governance, livelihoods and access to…
+- **Black women: the intersection of race and gender as a source of mental health vulnerability in academia**
+  International Journal for Equity in Health, 2026-09-09 | article | auteurs : BR
+  Rony Magalhães Martins, Orlando Fernandes, Rachel Silva Machado Lana et al. | score 13 | [DOI](https://doi.org/10.1186/s12939-026-03021-8)
+  > Abstract Background Major depressive disorder (MDD) affects 3.8% of the global population, with higher rates among women and marginalized groups. Kimberlé Crenshaw’s theory of intersectionality posits that systems of…
+- **International women’s day in Nigeria: the paradox of gender visibility and inequality**
+  Frontiers in Sociology, 2026-09-17 | article | auteurs : US
+  Samson Uchenna Eze | score 12 | [DOI](https://doi.org/10.3389/fsoc.2026.1963880) | [PDF libre](https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2026.1963880/pdf)
+  > Nigeria’s celebration of International Women’s Day (IWD) has evolved from the era of federal government observances in the 1980s to corporate commemorations. Nigeria is the most populous country in Africa, where IWD is…
+- **"If I'm unhealthy, then I don't have a place in our school system": Co-creating a gender-transformative, whole-school and school-linked mental health research and learning agenda in Uganda**
+  African Educational Research Journal, 2026-09-07 | article | 
+  Lydia Namatende-Sakwa, Agnes Kiragga, Shem Mambe et al. | score 11 | [DOI](https://doi.org/10.5281/zenodo.22642889)
+  > Schools are increasingly expected to promote mental health, identify distress and connect learners to care, yet evidence from low-resource African education systems remains fragmented. This study examined how school…
+- **Association between meeting sleep guidelines and anxiety symptoms among Physician assistants in Ghana: a cross-sectional study**
+  Frontiers in Sleep, 2026-09-16 | article | auteurs : CA, GB
+  Richard Armah Danyi, Patrick Kwame Akwaboah | score 11 | [DOI](https://doi.org/10.3389/frsle.2026.1928518) | [PDF libre](https://www.frontiersin.org/journals/sleep/articles/10.3389/frsle.2026.1928518/pdf)
+  > Background Sleep is an important determinant of mental health, yet evidence among healthcare professionals in sub-Saharan Africa remains limited. This study examined the association between adherence to recommended…
+- **Intersecting burdens: Gendered racism, bodily pain, and mental health in Black women.**
+  Health Psychology, 2026-09-10 | article | auteurs : US
+  Tiffany R. Williams, Christy L. Erving, Jasmine Jenkins et al. | score 11 | [DOI](https://doi.org/10.1037/hea0001640) | [PDF libre](https://psycnet.apa.org/fulltext/2028-22586-001.pdf)
+  > Objectives: Black women experience disproportionate burdens of pain and pain interference.Emerging evidence identifies gendered racial microaggressions (GRMs) as a social determinant of health linked to psychological…
+- **Perinatal mental health equity: patient perspectives on virtual collaborative care providing what women need now in the post-COVID era**
+  Frontiers in Psychiatry, 2026-09-16 | article | auteurs : US
+  Angela Marie Johnson, Rena Menke, Olivia Yang et al. | score 11 | [DOI](https://doi.org/10.3389/fpsyt.2026.1858606) | [PDF libre](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1858606/pdf)
+  > Introduction The COVID-19 pandemic increased perinatal mental health needs and disrupted routine obstetric care, disproportionately affecting Black and economically disadvantaged communities. Michigan’s Perinatal…
+- **What predicts adolescents’ mathematics anxiety in the Middle East and North Africa? An interpretable machine learning analysis of six Arab education systems in PISA 2022**
+  Frontiers in Psychology, 2026-09-09 | article | auteurs : SA, US
+  Omar Allohibi | score 11 | [DOI](https://doi.org/10.3389/fpsyg.2026.1929157) | [PDF libre](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1929157/pdf)
+  > Introduction Mathematics anxiety is among the most consequential affective barriers to mathematics learning, yet large-scale evidence from the Middle East and North Africa (MENA) remains scarce. Existing research on the…
+- **Analysis of Gender Disparity in Out-Of-School Children in Nigeria**
+  Research in Social Sciences, 2026-09-08 | article | auteurs : US
+  Edward Agbai, Ayima Lott | score 10 | [DOI](https://doi.org/10.53935/2641-5305.v9i4.1173) | [PDF libre](https://academiainsight.com/index.php/riss/article/download/1173/673)
+  > As such, this study examines the gender gap in out-of-school children in Nigeria, its scope, regional variation, drivers, consequences and current policy responses and research to build on evidence-based interventions…
+- **Early human capital, the COVID-19 food-insecurity shock, and adult mental health: a 22-year cohort study in Ethiopia, India, and Peru**
+  medRxiv, 2026-09-08 | PREPRINT, non évalué | auteurs : PE
+  Manuel Antonio Díaz Flores, William Miguel Jiménez Rivera, Gina Milagros Peña Huamán et al. | score 10 | [DOI](https://doi.org/10.64898/2026.09.02.26362122)
+  > Abstract Mental disorders typically emerge before age 25, yet little is known about how childhood human capital and large economic shocks jointly shape mental health into adulthood in low-and middle-income countries…
+- **Occupational segregation and gender earnings inequality: evidence from Kenya**
+  Oxford Development Studies, 2026-09-07 | article | auteurs : HU
+  Wycliffe Obwori Alwago | score 10 | [DOI](https://doi.org/10.1080/13600818.2026.2728695)
+  > This study investigates Kenya’s gender pay gap using the BMZ decomposition framework and nationally representative 2021 KCHS data (6,653 wage workers; 4,210 men and 2,443 women). We find a 12.1% gender pay gap and the…
+- **Out-of-School Suspensions, Academic Achievement, and Juvenile Justice System Involvement Among African American and Indigenous Children**
+  Youth, 2026-09-04 | article | auteurs : US
+  Minhae Cho, Shelby Flnanagan, Wendy Haight | score 10 | [DOI](https://doi.org/10.3390/youth6030127)
+  > Racial disparities in out-of-school suspension (OSS) persist as a social justice concern. This study examines the associations between out-of-school suspension (OSS) and subsequent academic achievement and juvenile…
+- **Prevalence and predictors of depression and suicidal ideation among undergraduate students in Gombe State University, North-Eastern Nigeria**
+  Discover Mental Health, 2026-09-22 | article | 
+  Pius Agbalugo Odunze, Abubakar Abubakar Ahmad, Eugene Chidi Eugene et al. | score 10 | [DOI](https://doi.org/10.1007/s44192-026-00580-8)
+  > Abstract Background Depression and suicidal ideation are major public health concerns among university students in Nigeria and globally. Their prevalence in this population often exceeds that of the general population…
 
-### Top 0 hors domaines Mau Plan
+### Top 10 hors domaines Mau Plan
 
-_Aucun._
+- **Diabetes Care Inequities and Culturally Grounded Management Among African American and Native American Communities: A Narrative Review**
+  Diabetology, 2026-09-10 | revue de littérature | auteurs : US
+  Kwaku Karikari Manu, Seth Appiah-Opoku, Cassandra Ford et al. | score 7 | [DOI](https://doi.org/10.3390/diabetology7090178)
+  > Diabetes disproportionately affects African American and Native American populations in the United States; however, diabetes disparities are frequently examined either collectively across minority populations or within…
+- **A systematic review of palliative care knowledge, attitudes, and practices in Saudi Arabia: a global comparative analysis**
+  Frontiers in Public Health, 2026-09-16 | revue de littérature | auteurs : SA
+  Sharifa M. Alasiry, Hatim Mohammed Alasiri, Abdulhakeem Ahmad Assiri | score 7 | [DOI](https://doi.org/10.3389/fpubh.2026.1896172) | [PDF libre](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1896172/pdf)
+  > Background Palliative care is an important component of enhancing quality of life for patients with life-limiting illness. Despite increasing infrastructure capacity in Saudi Arabia, there is a significant gap in the…
+- **Vanilla planifolia: Agronomic and Economic Potential for the Mediterranean Agro-System of Almería, Spain: A Narrative Review**
+  Horticulturae, 2026-09-02 | revue de littérature | auteurs : ES
+  Francisco José Aznar-Garrido, A. López | score 7 | [DOI](https://doi.org/10.3390/horticulturae12091096)
+  > Almería’s high-yield Mediterranean agricultural model is based fundamentally on eight main greenhouse vegetables, with tomato, peppers, and cucumber identified as the principal crops. To facilitate regional…
+- **A systematic review of key factors informing foresight for sustainable dairy development across emerging countries**
+  Discover Sustainability, 2026-09-02 | revue de littérature | auteurs : FR, ID
+  Pria Sembada, Guillaume Duteurtre | score 7 | [DOI](https://doi.org/10.1007/s43621-026-04540-8)
+  > Abstract A variety of internal and external factors, including population growth, economic development, environmental issues, and others, can significantly affect the sustainability of the dairy sector. Nowadays, the…
+- **Fungal detection, diagnostic approaches, and antifungal susceptibility in diabetic foot ulcers: a systematic review of recent evidence**
+  Frontiers in Fungal Biology, 2026-09-04 | revue de littérature | auteurs : SA
+  Salma M. Alsayed, Aiah M. Khateb, Muhammad Yasir et al. | score 7 | [DOI](https://doi.org/10.3389/ffunb.2026.1915109) | [PDF libre](https://www.frontiersin.org/journals/fungal-biology/articles/10.3389/ffunb.2026.1915109/pdf)
+  > Background Fungal infections are an emerging but underrecognized concern in diabetic foot ulcers (DFU); and may contribute to delaying healing and complicate clinical outcomes. This study reviewed available evidence to…
+- **Spiritual Care in Serious Illness: A Narrative Review of Low- and Middle-Income Country Evidence**
+  Annals of Global Health, 2026-09-18 | revue de littérature | auteurs : NZ, US
+  Ryan Meachen, Junita Henry, Sabbi Lall et al. | score 7 | [DOI](https://doi.org/10.5334/aogh.5384) | [PDF libre](https://annalsofglobalhealth.org/articles/5384/files/6aad3e28e27ed.pdf)
+  > Background: Spiritual care (SC) is a component of person‑centered care in serious illness, yet most evidence derives from high‑income countries (HICs). Most patients with serious illness live in low‑ and middle‑income…
+- **Are future physicians practicing safe caffeine consumption? A structured narrative review of caffeine and energy drink use among medical students**
+  Frontiers in Public Health, 2026-09-22 | revue de littérature | auteurs : GD
+  Adan Ahmed, Carolyne Maina, Arsalan Akhtar | score 7 | [DOI](https://doi.org/10.3389/fpubh.2026.1935826)
+  > Background Caffeine reaches medical students through coffee, tea, soft drinks, tablets and energy drinks, but these products differ in composition and exposure. Reported prevalence varies because studies use different…
+- **Global, Regional, and Country Incidence of Peritoneal Dialysis-Associated Peritonitis in the Contemporary Peritoneal Dialysis Practice: A Systematic Review and Meta-Analysis**
+  Medical Sciences, 2026-09-20 | revue de littérature | auteurs : CA, TH
+  Surapon Nochaiwong, Chidchanok Ruengorn, Kajohnsak Noppakun et al. | score 7 | [DOI](https://doi.org/10.3390/medsci14050592)
+  > Background/Objectives: Since peritoneal dialysis (PD) has been used in nephrology practice for several decades, contemporary evidence on global, regional, and country incidence rates of PD-associated peritonitis has not…
+- **Risk communication strategies during public health emergencies: a narrative review of frameworks, recent crises, and emerging challenges**
+  International Journal of Emergency Medicine, 2026-09-03 | revue de littérature | auteurs : BR
+  Alexandre Bueno Merlini, Alexandre Biasi Cavalcanti, Daniel Apolinário et al. | score 7 | [DOI](https://doi.org/10.1186/s12245-026-01357-0)
+  > Public health emergencies, ranging from infectious disease outbreaks to climate-driven and humanitarian crises, generate communication demands that conventional health messaging often fails to meet. Risk communication…
+- **The Legacy of Black Women in Librarianship: When They Dared to Be Powerful**
+  College & Research Libraries, 2026-09-11 | article | auteurs : US
+  Tomeka Jackson | score 6 | [DOI](https://doi.org/10.5860/crl.87.5.682) | [PDF libre](https://crl.acrl.org/index.php/crl/article/download/27495/35237)
+  > This book grew out of Nicole A. Cooke’s reflections on the Black librarians of the past, whom she calls her “Black library ancestors,” whose labor, resilience, and persistence paved the way for her and other librarians…
 
 ---
 Liste complète : fichier veille.csv du même dossier. Les preprints ne sont pas évalués par les pairs.
