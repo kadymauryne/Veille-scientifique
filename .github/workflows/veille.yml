@@ -2,8 +2,8 @@ name: Veille scientifique Mau Plan
 
 on:
   schedule:
-    - cron: "0 6 * * 5"
-  workflow_dispatch:
+    - cron: "0 6 * * 5"   # chaque vendredi 6h UTC = 6h Abidjan
+  workflow_dispatch:       # bouton "Run workflow" pour lancer à la main
 
 permissions:
   contents: write
@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
