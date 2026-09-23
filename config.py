@@ -20,6 +20,19 @@ ABSTRACT_SNIPPET = 220       # caractères de résumé dans le Markdown
 MIN_DOMAIN_SCORE = 3         # 1 mot-clé dans le titre, ou 3 dans le résumé
 
 WORK_TYPES = "article|review|preprint"
+S2_CHUNK = 6   # termes par requête en section 2 (au-delà, OpenAlex sature)
+
+# ── Exclusions (modifiable) ──────────────────────────────────────────
+# Préfixes DOI d'éditeurs écartés :
+#   10.56201 = IIARD ; 10.11648 = Science Publishing Group
+EXCLUDED_DOI_PREFIXES = ["10.56201", "10.11648"]
+# Motifs cherchés dans le nom de la revue ou de l'éditeur (minuscules).
+# Zenodo et Figshare = dépôts, pas des revues (doublons, annexes).
+EXCLUDED_NAME_PATTERNS = [
+    "iiard", "science publishing group", "sciencepg",
+    "iconic research and engineering", "zenodo", "figshare",
+]
+EXCLUDED_TITLE_PATTERNS = ["additional file", "supplementary material", "supplementary file"]
 
 # ── 54 pays africains (ISO 3166-1 alpha-2) ───────────────────────────
 AFRICA_CC = [
@@ -124,12 +137,12 @@ DOMAINS = {
         "icon": "🧠",
         "keywords": [
             "psychology", "psychological", "mental health", "depression",
-            "anxiety", "behaviour", "behavior", "behavioural", "behavioral",
+            "anxiety", "behaviour change", "behavior change",
             "urban mobility", "transport", "urbanization", "urbanisation",
             "informal settlement", "informal economy", "gender", "women's empowerment",
-            "education", "school", "youth", "migration", "corruption",
-            "governance", "trust", "social norms", "poverty", "inequality",
-            "livelihood", "livelihoods", "stigma", "leadership",
+            "out-of-school", "migration", "corruption",
+            "governance", "social norms", "poverty", "inequality",
+            "livelihood", "livelihoods", "stigma",
             "santé mentale", "mobilité urbaine", "genre", "gouvernance",
             "pauvreté", "économie informelle", "jeunesse", "migrations",
         ],

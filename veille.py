@@ -129,6 +129,9 @@ def norm_openalex(w):
         "first_author_african": first_afr,
         "african_share": (n_afr / len(auths)) if auths else 0.0,
         "journal": src.get("display_name") or "",
+        "publisher": src.get("host_organization_name") or "",
+        "is_core": bool(src.get("is_core")),
+        "is_in_doaj": bool(src.get("is_in_doaj")),
         "date": w.get("publication_date") or "",
         "type": w.get("type") or "",
         "is_oa": bool(oa.get("is_oa")),
@@ -267,8 +270,12 @@ def domain_scores(rec):
 
 def quality_bonus(rec, section):
     b = 0
+    if rec.get("is_core"):      # revue reconnue (sources "core" OpenAlex/CWTS)
+        b += 3
+    if rec.get("is_in_doaj"):   # libre accès contrôlé par le DOAJ
+        b += 1
     if rec["is_oa"]:
-        b += 2
+        b += 1
     if rec["abstract"]:
         b += 1
     if rec["type"] == "review":
@@ -299,8 +306,36 @@ def classify(recs, section):
         domains[d].sort(key=lambda x: (-x["score"], x["title"]))
     # Hors domaines : on n'y met que des travaux avec résumé, sinon impossible de juger.
     outside = [r for r in outside if r["abstract"]]
-    outside.sort(key=lambda x: (-x["score"], x["title"]))
+    outside.sort(key=lambda x: (-x["score"], not x.get("is_core"), -x["african_share"]))
     return domains, outside
+
+
+def is_excluded(r):
+    doi = r.get("doi") or ""
+    if any(doi.startswith(p + "/") for p in C.EXCLUDED_DOI_PREFIXES):
+        return True
+    names = f"{r.get('journal', '')} {r.get('publisher', '')}".lower()
+    if any(p in names for p in C.EXCLUDED_NAME_PATTERNS):
+        return True
+    t = r["title"].lower()
+    return any(t.startswith(p) for p in C.EXCLUDED_TITLE_PATTERNS)
+
+
+def title_key(t):
+    return re.sub(r"\W+", "", t.lower())[:150]
+
+
+def clean(recs):
+    """Retire éditeurs exclus, annexes et doublons de titre. Renvoie (gardés, nb exclus)."""
+    kept, titles, n = [], set(), 0
+    for r in recs:
+        tk = title_key(r["title"])
+        if is_excluded(r) or tk in titles:
+            n += 1
+            continue
+        titles.add(tk)
+        kept.append(r)
+    return kept, n
 
 
 # ════════════════════════════════════════════════════════════════════
@@ -532,17 +567,28 @@ def main():
     s2_recs = []
     try:
         raw2, trunc_total = [], False
-        for q in (or_query(C.AFRICA_TERMS + C.BLACK_POP_TERMS), or_query(C.COUNTRY_NAMES_EN)):
-            part, trunc = openalex(f"title_and_abstract.search:{q},{date_f}", C.MAX_FETCH_SECTION2)
-            raw2 += part
-            trunc_total |= trunc
+        terms = C.AFRICA_TERMS + C.BLACK_POP_TERMS + C.COUNTRY_NAMES_EN
+        chunks = [terms[i:i + C.S2_CHUNK] for i in range(0, len(terms), C.S2_CHUNK)]
+        ok = 0
+        for chunk in chunks:
+            try:
+                part, trunc = openalex(f"title_and_abstract.search:{or_query(chunk)},{date_f}",
+                                       C.MAX_FETCH_SECTION2)
+                raw2 += part
+                trunc_total |= trunc
+                ok += 1
+            except Exception:
+                continue
+        if ok == 0:
+            raise RuntimeError(f"les {len(chunks)} requêtes ont échoué")
         s2_keys = set()
         for r in map(norm_openalex, raw2):
             if not r or r["african_countries"] or r["key"] in s2_keys:
                 continue  # affiliés Afrique = section 1
             s2_keys.add(r["key"])
             s2_recs.append(r)
-        status["OpenAlex S2"] = f"{len(s2_recs)} retenus" + (" (plafond atteint)" if trunc_total else "")
+        status["OpenAlex S2"] = (f"{len(s2_recs)} retenus, {ok}/{len(chunks)} requêtes réussies"
+                                 + (" (plafond atteint)" if trunc_total else ""))
     except Exception as ex:
         status["OpenAlex S2"] = f"ÉCHEC ({ex})"
 
@@ -559,6 +605,11 @@ def main():
     s1_recs = fresh(s1_recs)
     s1_keys = {r["key"] for r in s1_recs}
     s2_recs = [r for r in fresh(s2_recs) if r["key"] not in s1_keys]
+    for r in s1_recs + s2_recs:          # mémorisés même si exclus : inutile de les revoir
+        seen[r["key"]] = today.isoformat()
+    s1_recs, x1 = clean(s1_recs)
+    s2_recs, x2 = clean(s2_recs)
+    status["Exclus"] = f"{x1 + x2} (éditeurs écartés, annexes, doublons)"
 
     s1 = classify(s1_recs, 1)
     s2 = classify(s2_recs, 2)
@@ -575,14 +626,12 @@ def main():
     (REPORTS_DIR / "latest.md").write_text(md, encoding="utf-8")
     (REPORTS_DIR / "latest.html").write_text(ht, encoding="utf-8")
 
-    for r in s1_recs + s2_recs:
-        seen[r["key"]] = today.isoformat()
     save_seen(seen, today)
 
     print(f"Rapport : {out_dir}")
     for k, v in status.items():
         print(f"  {k}: {v}")
-    if all(v.startswith("ÉCHEC") for v in status.values()):
+    if all(v.startswith("ÉCHEC") for k, v in status.items() if k != "Exclus"):
         raise SystemExit("Toutes les sources ont échoué.")
 
 
