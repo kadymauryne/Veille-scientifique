@@ -1,0 +1,43 @@
+name: Sélection mensuelle newsletter
+
+on:
+  schedule:
+    - cron: "17 7 1 * *"   # le 1er de chaque mois, 7h17 UTC : traite le mois écoulé
+  workflow_dispatch:
+    inputs:
+      mois:
+        description: "Mois à traiter (AAAA-MM). Vide = mois précédent."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-depot
+  cancel-in-progress: false
+
+jobs:
+  mensuel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Construire la sélection
+        run: python mensuel.py ${{ github.event.inputs.mois }}
+
+      - name: Enregistrer la sélection
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "veille-bot@users.noreply.github.com"
+          git add reports/mensuel
+          git commit -m "Sélection mensuelle $(date +%F)" || echo "Rien de nouveau"
+          git pull --rebase origin main
+          git push

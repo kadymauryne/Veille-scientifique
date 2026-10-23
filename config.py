@@ -11,13 +11,16 @@ FIRST_RUN_DAYS = 7
 ROLLING_DAYS = 21
 
 # ── Plafonds ─────────────────────────────────────────────────────────
-MAX_FETCH_SECTION1 = 12000   # garde-fou OpenAlex, section auteurs africains
+MAX_FETCH_SECTION1 = 30000   # garde-fou OpenAlex, section auteurs africains (12000 était atteint chaque semaine)
 MAX_FETCH_SECTION2 = 6000    # garde-fou OpenAlex, section sujet Afrique/pop. noires
 MD_MAX_PER_DOMAIN = 15       # rapport Markdown (celui qu'on lit ensemble)
 HTML_MAX_PER_DOMAIN = 50     # rapport HTML (le CSV contient tout)
 TOP_OUTSIDE = 10             # top hors domaines Mau Plan, par section
 ABSTRACT_SNIPPET = 220       # caractères de résumé dans le Markdown
 MIN_DOMAIN_SCORE = 3         # 1 mot-clé dans le titre, ou 3 dans le résumé
+
+CSV_ABSTRACT_CHARS = 600     # résumé conservé dans le CSV (sert au mensuel)
+S2_MIN_SUCCESS_RATIO = 0.6   # sous ce taux de requêtes S2 réussies, la veille est "dégradée"
 
 WORK_TYPES = "article|review|preprint"
 S2_CHUNK = 6   # termes par requête en section 2 (au-delà, OpenAlex sature)
@@ -148,3 +151,13 @@ DOMAINS = {
         ],
     },
 }
+
+
+# ── Mensuel newsletter (mensuel.py) ──────────────────────────────────
+# Le mensuel ne réinterroge aucune API : il relit les CSV hebdomadaires
+# du mois écoulé (déjà dédoublonnés) et garde une sélection courte.
+MONTHLY_PER_DOMAIN = 5           # par domaine et par section
+MONTHLY_TOP_OUTSIDE = 5          # hors domaines, par section
+MONTHLY_EXCLUDE_PREPRINTS = True # une newsletter ne relaie pas du non-évalué
+MONTHLY_REQUIRE_DOI = True       # traçabilité : pas de DOI, pas de sélection
+MONTHLY_REQUIRE_ABSTRACT = True  # impossible de juger (et d'écrire) sans résumé

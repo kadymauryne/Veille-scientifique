@@ -1,5 +1,5 @@
 """
-Veille scientifique hebdomadaire Mau Plan.
+Veille scientifique hebdomadaire Mau Plan (le mensuel newsletter est dans mensuel.py).
 
 Section 1 : travaux dont au moins un auteur est affilié à une institution africaine.
 Section 2 : travaux sur l'Afrique ou les populations noires, sans auteur affilié en Afrique.
@@ -51,6 +51,9 @@ def http(method, url, **kw):
         except requests.RequestException:
             time.sleep(2 ** attempt)
             continue
+        if r.status_code in (401, 403):
+            raise RuntimeError(f"accès refusé ({r.status_code}) : clé API invalide, expirée ou "
+                               "révoquée — vérifier le secret OPENALEX_API_KEY sur GitHub")
         if r.status_code == 429 or r.status_code >= 500:
             time.sleep(2 ** attempt + 1)
             continue
@@ -517,7 +520,7 @@ def build_html(today, window, s1, s2, status, totals):
 
 def write_csv(path, s1, s2):
     cols = ["section", "domaine", "score", "titre", "auteurs", "pays_africains", "revue",
-            "date", "type", "doi", "lien_pdf", "lien_page", "source"]
+            "date", "type", "doi", "lien_pdf", "lien_page", "source", "resume"]
     with open(path, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, delimiter=";")
         w.writerow(cols)
@@ -528,7 +531,8 @@ def write_csv(path, s1, s2):
                             "; ".join(r["authors"]), ",".join(r["african_countries"]),
                             r["journal"], r["date"], r["type"],
                             f"https://doi.org/{r['doi']}" if r["doi"] else "",
-                            r["pdf_url"], r["landing_url"], r["source"]])
+                            r["pdf_url"], r["landing_url"], r["source"],
+                            snippet(r["abstract"], C.CSV_ABSTRACT_CHARS)])
 
 
 # ════════════════════════════════════════════════════════════════════
@@ -633,6 +637,20 @@ def main():
         print(f"  {k}: {v}")
     if all(v.startswith("ÉCHEC") for k, v in status.items() if k != "Exclus"):
         raise SystemExit("Toutes les sources ont échoué.")
+
+    # ── Alerte : une veille dégradée ne doit pas passer pour un succès ──
+    problems = [f"{k} : {v[:160]}" for k, v in status.items()
+                if k.startswith("OpenAlex") and v.startswith("ÉCHEC")]
+    m = re.search(r"(\d+)/(\d+) requêtes réussies", status.get("OpenAlex S2", ""))
+    if m and int(m.group(1)) < int(m.group(2)) * C.S2_MIN_SUCCESS_RATIO:
+        problems.append(f"OpenAlex S2 : seulement {m.group(1)}/{m.group(2)} requêtes réussies")
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    if gh_out:
+        with open(gh_out, "a", encoding="utf-8") as f:
+            f.write(f"degraded={'true' if problems else 'false'}\n")
+            f.write("reason=" + (" | ".join(problems) or "aucun") + "\n")
+    if problems:
+        print("VEILLE DÉGRADÉE : " + " | ".join(problems))
 
 
 if __name__ == "__main__":

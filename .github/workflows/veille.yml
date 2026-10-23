@@ -2,11 +2,16 @@ name: Veille scientifique Mau Plan
 
 on:
   schedule:
-    - cron: "0 6 * * 5"   # chaque vendredi 6h UTC = 6h Abidjan
+    - cron: "0 6 * * 5"   # chaque vendredi 6h UTC = 6h Abidjan (GitHub lance souvent avec retard)
   workflow_dispatch:       # bouton "Run workflow" pour lancer à la main
 
 permissions:
   contents: write
+
+# Hebdo et mensuel écrivent dans le même dépôt : jamais en même temps.
+concurrency:
+  group: veille-depot
+  cancel-in-progress: false
 
 jobs:
   veille:
@@ -22,6 +27,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Lancer la veille
+        id: veille
         env:
           OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
@@ -34,4 +40,13 @@ jobs:
           git config user.email "veille-bot@users.noreply.github.com"
           git add reports data
           git commit -m "Veille du $(date +%F)" || echo "Rien de nouveau"
+          git pull --rebase origin main
           git push
+
+      # Le rapport est enregistré quand même, mais le run passe en rouge
+      # (et GitHub envoie un e-mail) si une source principale a lâché.
+      - name: Alerte si la veille est dégradée
+        if: steps.veille.outputs.degraded == 'true'
+        run: |
+          echo "::error::Veille incomplète — ${{ steps.veille.outputs.reason }}"
+          exit 1
